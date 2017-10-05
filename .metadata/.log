@@ -540,3 +540,9 @@ org.eclipse.jst.j2ee.commonarchivecore.internal.exception.EmptyResourceException
 	at org.eclipse.jst.j2ee.internal.web.validation.UIWarValidator.validateInJob(UIWarValidator.java:113)
 	at org.eclipse.wst.validation.internal.operations.ValidatorJob.run(ValidatorJob.java:78)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.wst.server.core 4 0 2017-10-05 16:21:10.669
+!MESSAGE Server Tomcat v9.0 Server at localhost failed to start.
+
+!ENTRY org.eclipse.wst.server.core 4 0 2017-10-05 16:24:29.557
+!MESSAGE Server Tomcat v9.0 Server at localhost failed to start.
