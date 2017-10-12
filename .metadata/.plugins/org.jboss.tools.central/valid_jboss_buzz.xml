@@ -2,13 +2,408 @@
 <?xml-stylesheet type="text/xsl" media="screen" href="/~d/styles/atom10full.xsl"?><?xml-stylesheet type="text/css" media="screen" href="http://feeds.feedburner.com/~d/styles/itemcontent.css"?><feed xmlns="http://www.w3.org/2005/Atom" xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0">
 <title>JBoss Central</title>
 <generator uri="http://tt-rss.org/">Tiny Tiny RSS/1.9</generator>
-<updated>2017-07-28T02:42:49+00:00</updated>
+<updated>2017-08-14T17:04:57+00:00</updated>
 <id>http://tiny-man.rhcloud.com/public.php?op=rss&amp;id=1&amp;key=b0143615132bd9efc4e83ba42a5574f6ab939b28</id>
 
 
 <link href="http://tiny-man.rhcloud.com" rel="alternate" />
 
 <atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="self" type="application/atom+xml" href="http://feeds.feedburner.com/jbossbuzz" /><feedburner:info uri="jbossbuzz" /><atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="hub" href="http://pubsubhubbub.appspot.com/" /><entry>
+	<id>https://tools.jboss.org/blog/4.5.1.am3-for-oxygen.1.html</id>
+	<link href="http://feedproxy.google.com/~r/jbossbuzz/~3/o-EXKXAr_cc/4.5.1.am3-for-oxygen.1.html" rel="alternate" type="text/html" />
+	<title>JBoss Tools 4.5.1.AM3 for Eclipse Oxygen.1</title>
+	<summary type="html"><![CDATA[
+      <div><div id="preamble">
+      <div class="sectionbody">
+      <div class="paragraph">
+      <p>Happy to announce 4.5.1.AM3 (Developer Milestone 3) build for Eclipse Oxygen.1.</p>
+      </div>
+      <div class="paragraph">
+      <p>Downloads available at <a href="https://tools.jboss.org/downloads/jbosstools/oxygen/4.5.1.AM3.html">JBoss Tools 4.5.1 AM3</a>.</p>
+      </div>
+      </div>
+      </div>
+      <div class="sect1">
+      <h2 id="what-is-new"><a class="anchor" href="#what-is-new"></a>What is New?</h2>
+      <div class="sectionbody">
+      <div class="paragraph">
+      <p>Full info is at <a href="https://tools.jboss.org/documentation/whatsnew/jbosstools/4.5.1.AM3.html">this page</a>. Some highlights are below.</p>
+      </div>
+      <div class="sect2">
+      <h3 id="openshift-io"><a class="anchor" href="#openshift-io"></a>OpenShift.io</h3>
+      <div class="sect3">
+      <h4 id="openshift-io-login"><a class="anchor" href="#openshift-io-login"></a>OpenShift.io login</h4>
+      <div class="paragraph">
+      <p>It is possible to login from JBoss Tools to OpenShift.io. A single account will be maintained per workspace. Once you initially logged onto OpenShift.io, all
+      needed account information (tokens,…​) will be stored securely.</p>
+      </div>
+      <div class="paragraph">
+      <p>There are two ways to login onto OpenShift.io:</p>
+      </div>
+      <div class="ulist">
+      <ul>
+      <li>
+      <p>through the UI</p>
+      </li>
+      <li>
+      <p>via a third party service that will invoke the proper extension point</p>
+      </li>
+      </ul>
+      </div>
+      <div class="sect4">
+      <h5 id="ui-based-login-to-openshift-io"><a class="anchor" href="#ui-based-login-to-openshift-io"></a>UI based login to OpenShift.io</h5>
+      <div class="paragraph">
+      <p>In the toobar, you should see a new icon <span class="image"><img src="https://tools.jboss.org/documentation/whatsnew/openshift/images/osio-16x16.png" alt="Toolbar" /></span>. Click on it and it will launch the login.</p>
+      </div>
+      <div class="paragraph">
+      <p>If this is the first time you login to OpenShift.io or if you OpenShift.io account tokens are not valid anymore, you should see a browser launched with the following content:</p>
+      </div>
+      <div class="imageblock">
+      <div class="content">
+      <img src="https://tools.jboss.org/documentation/whatsnew/openshift/images/osio-browser.png" alt="osio browser" />
+      </div>
+      </div>
+      <div class="paragraph">
+      <p>Enter your RHDP login and the browser will then auto-close and an extract (for security reasons) of the OpenShift.io token will be displayed:</p>
+      </div>
+      <div class="imageblock">
+      <div class="content">
+      <img src="https://tools.jboss.org/documentation/whatsnew/openshift/images/osio-token-dialog.png" alt="osio token dialog" />
+      </div>
+      </div>
+      <div class="paragraph">
+      <p>This dialog will be also shown if an OpenShift.io account was configured in the workspace and the account information is valid.</p>
+      </div>
+      </div>
+      <div class="sect4">
+      <h5 id="via-extension-point"><a class="anchor" href="#via-extension-point"></a>Via extension point</h5>
+      <div class="paragraph">
+      <p>The OpenShift.io integration can be invoked by a third party service through the <code>org.jboss.tools.openshift.io.code.tokenProvider</code> extension point.
+      This extension point will perform the same actions as the UI but basically will return an access token for OpenShift.io to the third party service.
+      A detailed explanation of how to use this extension point is described here: <a href="https://github.com/jbosstools/jbosstools-openshift/wiki/OpenShift.io-token-provider">Wiki page</a></p>
+      </div>
+      <div class="paragraph">
+      <p>You can display the account information using the Eclipse <code>Jboss Tools → OpenShift.io</code> preference node. If you workspace does not contain an OpenShift.io account yet, you should see the following:</p>
+      </div>
+      <div class="imageblock">
+      <div class="content">
+      <img src="https://tools.jboss.org/documentation/whatsnew/openshift/images/osio-preferences.png" alt="osio preferences" />
+      </div>
+      </div>
+      <div class="paragraph">
+      <p>If you have a configured OpenShift.io account, you should see this:</p>
+      </div>
+      <div class="imageblock">
+      <div class="content">
+      <img src="https://tools.jboss.org/documentation/whatsnew/openshift/images/osio-preferences1.png" alt="osio preferences1" />
+      </div>
+      </div>
+      </div>
+      </div>
+      <div class="sect3">
+      <h4 id="cdk-3-2-beta-server-adapter"><a class="anchor" href="#cdk-3-2-beta-server-adapter"></a>CDK 3.2 Beta Server Adapter</h4>
+      <div class="paragraph">
+      <p>A new server adapter has been added to support the next generation of CDK 3.2. This is Tech Preview in this release as CDK 3.2 is Beta.
+      While the server adapter itself has limited functionality, it is able to start and stop the CDK virtual machine via its minishift binary.
+      Simply hit Ctrl+3 (Cmd+3 on OSX) and type CDK, that will bring up a command to setup and/or launch the CDK server adapter.
+      You should see the old CDK 2 server adapter along with the new CDK 3 one (labeled <strong>Red Hat Container Development Kit 3.2+</strong> ).</p>
+      </div>
+      <div class="imageblock">
+      <div class="content">
+      <img src="https://tools.jboss.org/documentation/whatsnew/openshift/images/cdk3.2-server-adapter.png" alt="cdk3.2 server adapter" width="600" />
+      </div>
+      </div>
+      <div class="paragraph">
+      <p>All you have to do is set the credentials for your Red Hat account, the location of the CDK’s minishift binary file, the type of virtualization hypervisor
+      and an optional CDK profile name.</p>
+      </div>
+      <div class="imageblock">
+      <div class="content">
+      <img src="https://tools.jboss.org/documentation/whatsnew/openshift/images/cdk3.2-server-adapter1.png" alt="cdk3.2 server adapter1" width="600" />
+      </div>
+      </div>
+      <div class="paragraph">
+      <p>Once you’re finished, a new CDK Server adapter will then be created and visible in the Servers view.</p>
+      </div>
+      <div class="imageblock">
+      <div class="content">
+      <img src="https://tools.jboss.org/documentation/whatsnew/openshift/images/cdk3.2-server-adapter2.png" alt="cdk3.2 server adapter2" width="600" />
+      </div>
+      </div>
+      <div class="paragraph">
+      <p>Once the server is started, Docker and OpenShift connections should appear in their respective views, allowing the user to quickly create a new Openshift application and begin developing their AwesomeApp in a highly-replicatable environment.</p>
+      </div>
+      <div class="imageblock">
+      <div class="content">
+      <img src="https://tools.jboss.org/documentation/whatsnew/openshift/images/cdk3.2-server-adapter3.png" alt="cdk3.2 server adapter3" width="600" />
+      </div>
+      </div>
+      <div class="imageblock">
+      <div class="content">
+      <img src="https://tools.jboss.org/documentation/whatsnew/openshift/images/cdk3.2-server-adapter4.png" alt="cdk3.2 server adapter4" width="600" />
+      </div>
+      </div>
+      <div class="admonitionblock warning">
+      <table>
+      <tr>
+      <td class="icon">
+      <i class="fa icon-warning" title="Warning"></i>
+      </td>
+      <td class="content">
+      This is Tech Preview. The implementation is subject to change, may not work with next releases of CDK 3.2 and testing has been limited.
+      </td>
+      </tr>
+      </table>
+      </div>
+      </div>
+      </div>
+      <div class="sect2">
+      <h3 id="fuse-tooling"><a class="anchor" href="#fuse-tooling"></a>Fuse Tooling</h3>
+      
+      </div>
+      </div>
+      </div>
+      <div class="sect1">
+      <h2 id="global-beans-improve-support-for-bean-references"><a class="anchor" href="#global-beans-improve-support-for-bean-references"></a>Global Beans: improve support for Bean references</h2>
+      <div class="sectionbody">
+      <div class="paragraph">
+      <p>It is now possible to set Bean references from User Interface when creating a new Bean:</p>
+      </div>
+      <div class="imageblock">
+      <div class="content">
+      <img src="https://tools.jboss.org/documentation/whatsnew/fusetools/images/factoryBeanReference.png" alt="Create Factory Bean Reference" />
+      </div>
+      </div>
+      <div class="paragraph">
+      <p>Editing Bean references is also now available on the properties view when editing an existing Bean:</p>
+      </div>
+      <div class="imageblock">
+      <div class="content">
+      <img src="https://tools.jboss.org/documentation/whatsnew/fusetools/images/factoryBeanReference-propertiesView.png" alt="Edit Factory Bean Reference" />
+      </div>
+      </div>
+      <div class="paragraph">
+      <p>Additional validation has been added to help users avoid mixing Beans defined with class names and Beans defined referencing other beans.</p>
+      </div>
+      <div class="paragraph">
+      <p>Enjoy!</p>
+      </div>
+      <div class="paragraph">
+      <p>Jeff Maury</p>
+      </div>
+      </div>
+      </div></div>
+    ]]></summary>
+	<content type="html">&lt;html&gt;&lt;body&gt;&lt;div&gt;&lt;div&gt;
+      &lt;div&gt;
+      &lt;div&gt;
+      &lt;p&gt;Happy to announce 4.5.1.AM3 (Developer Milestone 3) build for Eclipse Oxygen.1.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;p&gt;Downloads available at &lt;a href="https://tools.jboss.org/downloads/jbosstools/oxygen/4.5.1.AM3.html" target="_blank"&gt;JBoss Tools 4.5.1 AM3&lt;/a&gt;.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;h2&gt;&lt;a href="#what-is-new" target="_blank"&gt;&lt;/a&gt;What is New?&lt;/h2&gt;
+      &lt;div&gt;
+      &lt;div&gt;
+      &lt;p&gt;Full info is at &lt;a href="https://tools.jboss.org/documentation/whatsnew/jbosstools/4.5.1.AM3.html" target="_blank"&gt;this page&lt;/a&gt;. Some highlights are below.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;h3&gt;&lt;a href="#openshift-io" target="_blank"&gt;&lt;/a&gt;OpenShift.io&lt;/h3&gt;
+      &lt;div&gt;
+      &lt;h4&gt;&lt;a href="#openshift-io-login" target="_blank"&gt;&lt;/a&gt;OpenShift.io login&lt;/h4&gt;
+      &lt;div&gt;
+      &lt;p&gt;It is possible to login from JBoss Tools to OpenShift.io. A single account will be maintained per workspace. Once you initially logged onto OpenShift.io, all
+      needed account information (tokens,&amp;hellip;&amp;#8203;) will be stored securely.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;p&gt;There are two ways to login onto OpenShift.io:&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;ul&gt;&lt;li&gt;
+      &lt;p&gt;through the UI&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+      &lt;p&gt;via a third party service that will invoke the proper extension point&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;/ul&gt;&lt;/div&gt;
+      &lt;div&gt;
+      &lt;h5&gt;&lt;a href="#ui-based-login-to-openshift-io" target="_blank"&gt;&lt;/a&gt;UI based login to OpenShift.io&lt;/h5&gt;
+      &lt;div&gt;
+      &lt;p&gt;In the toobar, you should see a new icon &lt;span&gt;&lt;img src="https://tools.jboss.org/documentation/whatsnew/openshift/images/osio-16x16.png" alt="Toolbar"&gt;&lt;/span&gt;. Click on it and it will launch the login.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;p&gt;If this is the first time you login to OpenShift.io or if you OpenShift.io account tokens are not valid anymore, you should see a browser launched with the following content:&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;div&gt;
+      &lt;img src="https://tools.jboss.org/documentation/whatsnew/openshift/images/osio-browser.png" alt="osio browser"&gt;&lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;p&gt;Enter your RHDP login and the browser will then auto-close and an extract (for security reasons) of the OpenShift.io token will be displayed:&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;div&gt;
+      &lt;img src="https://tools.jboss.org/documentation/whatsnew/openshift/images/osio-token-dialog.png" alt="osio token dialog"&gt;&lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;p&gt;This dialog will be also shown if an OpenShift.io account was configured in the workspace and the account information is valid.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;h5&gt;&lt;a href="#via-extension-point" target="_blank"&gt;&lt;/a&gt;Via extension point&lt;/h5&gt;
+      &lt;div&gt;
+      &lt;p&gt;The OpenShift.io integration can be invoked by a third party service through the &lt;code&gt;org.jboss.tools.openshift.io.code.tokenProvider&lt;/code&gt; extension point.
+      This extension point will perform the same actions as the UI but basically will return an access token for OpenShift.io to the third party service.
+      A detailed explanation of how to use this extension point is described here: &lt;a href="https://github.com/jbosstools/jbosstools-openshift/wiki/OpenShift.io-token-provider" target="_blank"&gt;Wiki page&lt;/a&gt;&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;p&gt;You can display the account information using the Eclipse &lt;code&gt;Jboss Tools &amp;rarr; OpenShift.io&lt;/code&gt; preference node. If you workspace does not contain an OpenShift.io account yet, you should see the following:&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;div&gt;
+      &lt;img src="https://tools.jboss.org/documentation/whatsnew/openshift/images/osio-preferences.png" alt="osio preferences"&gt;&lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;p&gt;If you have a configured OpenShift.io account, you should see this:&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;div&gt;
+      &lt;img src="https://tools.jboss.org/documentation/whatsnew/openshift/images/osio-preferences1.png" alt="osio preferences1"&gt;&lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;h4&gt;&lt;a href="#cdk-3-2-beta-server-adapter" target="_blank"&gt;&lt;/a&gt;CDK 3.2 Beta Server Adapter&lt;/h4&gt;
+      &lt;div&gt;
+      &lt;p&gt;A new server adapter has been added to support the next generation of CDK 3.2. This is Tech Preview in this release as CDK 3.2 is Beta.
+      While the server adapter itself has limited functionality, it is able to start and stop the CDK virtual machine via its minishift binary.
+      Simply hit Ctrl+3 (Cmd+3 on OSX) and type CDK, that will bring up a command to setup and/or launch the CDK server adapter.
+      You should see the old CDK 2 server adapter along with the new CDK 3 one (labeled &lt;strong&gt;Red Hat Container Development Kit 3.2+&lt;/strong&gt; ).&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;div&gt;
+      &lt;img src="https://tools.jboss.org/documentation/whatsnew/openshift/images/cdk3.2-server-adapter.png" alt="cdk3.2 server adapter" width="600"&gt;&lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;p&gt;All you have to do is set the credentials for your Red Hat account, the location of the CDK&amp;rsquo;s minishift binary file, the type of virtualization hypervisor
+      and an optional CDK profile name.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;div&gt;
+      &lt;img src="https://tools.jboss.org/documentation/whatsnew/openshift/images/cdk3.2-server-adapter1.png" alt="cdk3.2 server adapter1" width="600"&gt;&lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;p&gt;Once you&amp;rsquo;re finished, a new CDK Server adapter will then be created and visible in the Servers view.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;div&gt;
+      &lt;img src="https://tools.jboss.org/documentation/whatsnew/openshift/images/cdk3.2-server-adapter2.png" alt="cdk3.2 server adapter2" width="600"&gt;&lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;p&gt;Once the server is started, Docker and OpenShift connections should appear in their respective views, allowing the user to quickly create a new Openshift application and begin developing their AwesomeApp in a highly-replicatable environment.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;div&gt;
+      &lt;img src="https://tools.jboss.org/documentation/whatsnew/openshift/images/cdk3.2-server-adapter3.png" alt="cdk3.2 server adapter3" width="600"&gt;&lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;div&gt;
+      &lt;img src="https://tools.jboss.org/documentation/whatsnew/openshift/images/cdk3.2-server-adapter4.png" alt="cdk3.2 server adapter4" width="600"&gt;&lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;table&gt;&lt;tr&gt;&lt;td&gt;
+      &lt;i title="Warning"&gt;&lt;/i&gt;
+      &lt;/td&gt;
+      &lt;td&gt;
+      This is Tech Preview. The implementation is subject to change, may not work with next releases of CDK 3.2 and testing has been limited.
+      &lt;/td&gt;
+      &lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;h3&gt;&lt;a href="#fuse-tooling" target="_blank"&gt;&lt;/a&gt;Fuse Tooling&lt;/h3&gt;
+      
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;h2&gt;&lt;a href="#global-beans-improve-support-for-bean-references" target="_blank"&gt;&lt;/a&gt;Global Beans: improve support for Bean references&lt;/h2&gt;
+      &lt;div&gt;
+      &lt;div&gt;
+      &lt;p&gt;It is now possible to set Bean references from User Interface when creating a new Bean:&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;div&gt;
+      &lt;img src="https://tools.jboss.org/documentation/whatsnew/fusetools/images/factoryBeanReference.png" alt="Create Factory Bean Reference"&gt;&lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;p&gt;Editing Bean references is also now available on the properties view when editing an existing Bean:&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;div&gt;
+      &lt;img src="https://tools.jboss.org/documentation/whatsnew/fusetools/images/factoryBeanReference-propertiesView.png" alt="Edit Factory Bean Reference"&gt;&lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;p&gt;Additional validation has been added to help users avoid mixing Beans defined with class names and Beans defined referencing other beans.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;p&gt;Enjoy!&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;p&gt;Jeff Maury&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;&lt;/div&gt;&lt;/body&gt;&lt;/html&gt;
+&lt;img src="http://feeds.feedburner.com/~r/jbossbuzz/~4/o-EXKXAr_cc" height="1" width="1" alt=""/&gt;</content>
+	<updated>2017-10-11T07:48:24+00:00</updated>
+	<author><name>jeffmaury</name></author>
+	<source>
+		<link rel="self" href="http://tools.jboss.org/blog/" />
+		<title>JBoss Tools</title></source>
+
+	<category term="release" />
+
+	<category term="jbosstools" />
+
+	<category term="jbosscentral" />
+
+
+<feedburner:origLink>https://tools.jboss.org/blog/4.5.1.am3-for-oxygen.1.html</feedburner:origLink></entry>
+
+<entry>
+	<id>https://developer.jboss.org/blogs/weekly-editorial/2017/10/06/this-week-in-jboss-10-october-2017</id>
+	<link href="http://feedproxy.google.com/~r/jbossbuzz/~3/wqmzPT8eASs/this-week-in-jboss-10-october-2017" rel="alternate" type="text/html" />
+	<title>This Week in JBoss (10 October 2017)</title>
+	<summary type="html"><![CDATA[<!-- [DocumentBodyStart:fe9477c8-7381-4149-8955-b2a6ae07f3b8] --><div class="jive-rendered-content"><div><div><div class="sectionbody"><div class="paragraph"><p>Welcome back to another weekly editorial! Those of you catching up from JavaOne, we hope you found time to visit the booth and try out OpenShift.io! There are a number of posts to cover this week, so, let&#8217;s get started.</p></div></div></div><div class="sect1"><h2></h2><h2>Releases</h2><div class="sectionbody"><div class="paragraph"><p style="min-height: 8pt; padding: 0px;">&#160;</p><p>We&#8217;ll start out with releases this time. There&#8217;s only three of them this week, but that doesn&#8217;t mean we&#8217;ve slacked off.</p></div><div class="ulist"><ul><li><p>Hibernate Search 5.8.1.Final <a class="jive-link-external-small" href="http://in.relation.to/2017/10/04/hibernate-search-5-8-1-Final/" rel="nofollow">released</a> a couple of days ago. There are many fixes for ElasticSearch in this maintenance release.</p></li><li><p><a class="jive-link-external-small" href="http://wildfly-swarm.io/posts/announcing-wildfly-swarm-2017-10-0/" rel="nofollow">Wildfly Swarm 2017.10.0</a> also released two days ago.</p></li><li><p>The first of the <a class="jive-link-external-small" href="http://blog.infinispan.org/2017/10/infinispan-920alpha1-released.html" rel="nofollow">Infinispan 9.2.0 branch</a> released today, check it out!</p></li></ul></div></div></div><div class="sect1"><h2></h2><h2>Announcements</h2><div class="sectionbody"><div class="paragraph"><p style="min-height: 8pt; padding: 0px;">&#160;</p><p>By far the biggest announcement in the Java EE space happened earlier in the week with the announcement of EE4J! Our very own Mark Little <a class="jive-link-blog-small" data-containerId="1427" data-containerType="37" data-objectId="6128" data-objectType="38" href="https://developer.jboss.org/blogs/mark.little/2017/09/30/ee4j-life-beyond-java-ee-begins-today">blogged about it</a>. If this is the first you&#8217;re seeing of it, be sure to read Mark&#8217;s blog and check out the charter. Everyone is welcome to participate. Please sign up for the mailing list and help us all move Enterprise Java forward!</p></div><div class="paragraph"><p>If you&#8217;re running on RHEL, you may be excited for the next couple of blogs from Mike Guerette. Earlier in the week, Red Hat announced the availability of <a class="jive-link-external-small" href="https://developers.redhat.com/blog/2017/10/04/red-hat-adds-go-clangllvm-rust-compiler-toolsets-updates-gcc/" rel="nofollow">Red Hat Developer Toolset 7.0 Beta</a>. This beta brings updates to GCC (7.2) and adds Clang/LLVM 4.0.1, Go 1.8.3, and Rust 1.2.0 to the list of supported compilers! In addition to those, Mike also announced <a class="jive-link-external-small" href="https://developers.redhat.com/blog/2017/10/04/red-hat-updates-python-php-node-js-supports-new-arches/" rel="nofollow">Red Hat Software Collections 3.0 Beta</a> which includes other updates and also new additions.</p></div></div></div><div class="sect1"><h2></h2><h2>Blog Highlights</h2><div class="sectionbody"><div class="paragraph"><p style="min-height: 8pt; padding: 0px;">&#160;</p><p>To round out the week, there are a number of blog posts we&#8217;d like to highlight.</p></div><div class="sect2"><h3></h3><h3>Wildfly</h3><div class="paragraph"><p>Wildfly 11 will bring with it a number of changes. Among those changes is <a class="jive-link-external-small" href="http://wildfly.org/news/2017/10/03/Messaging-features/" rel="nofollow">integration with Apache ActiveMQ Artemis</a>. Be sure to read the blog for changes and new features available. There&#8217;s also support for <a class="jive-link-external-small" href="http://wildfly.org/news/2017/10/06/OpenSSL-Support-In-Wildfly/" rel="nofollow">OpenSSL</a>. The post details setup, security realms, and Elytron all with OpenSSL support! Lastly, Wildfly 11 improves the existing <a class="jive-link-external-small" href="http://wildfly.org/news/2017/09/29/Management-model-referential-integrity/" rel="nofollow">referential integrity</a> found in Wildfly 10.</p></div></div><div class="sect2"><h3></h3><h3>Spring Boot on Kubernetes</h3><div class="paragraph"><p>Kamesh Sampath has done a series of posts over on the Red Hat Developer blog detailing configuring Spring Boot on Kubernetes. <a class="jive-link-external-small" href="https://developers.redhat.com/blog/2017/10/02/configuring-spring-boot-application-kubernetes/" rel="nofollow">The introduction</a> of the series covers the initial idea of using Kubernetes for configuration of a Spring Boot application. <a class="jive-link-external-small" href="https://developers.redhat.com/blog/2017/10/03/configuring-spring-boot-kubernetes-configmap/" rel="nofollow">Part I</a> covers using ConfigMaps for configuration. <a class="jive-link-external-small" href="https://developers.redhat.com/blog/2017/10/04/configuring-spring-boot-kubernetes-secrets/" rel="nofollow">Part II</a> details the use of Secrets for sensitive information. These are great alternatives to the Spring Config server.</p></div></div><div class="sect2"><h3></h3><h3>OpenSlava</h3><div class="paragraph"><p>Lastly, Eric Schabell was at OpenSlava this past week. All of his <a class="jive-link-external-small" href="http://www.schabell.org/2017/10/openslava-2107-slides-keynote.html" rel="nofollow">talks</a> <a class="jive-link-external-small" href="http://www.schabell.org/2017/10/openslava-2017-slides-lightning-talk.html" rel="nofollow">and</a> <a class="jive-link-external-small" href="http://www.schabell.org/2017/10/openslava-2017-slides-breakout-session.html" rel="nofollow">slides</a> are available on his blog and SlideShare!</p><p style="min-height: 8pt; padding: 0px;">&#160;</p></div><div class="paragraph"><p>Thank you, everyone! We hope you&#8217;ve had a great week!</p></div></div></div></div></div></div><!-- [DocumentBodyEnd:fe9477c8-7381-4149-8955-b2a6ae07f3b8] -->]]></summary>
+	<content type="html">&lt;html&gt;&lt;!-- [DocumentBodyStart:fe9477c8-7381-4149-8955-b2a6ae07f3b8] --&gt;&lt;body&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;&lt;p&gt;Welcome back to another weekly editorial! Those of you catching up from JavaOne, we hope you found time to visit the booth and try out OpenShift.io! There are a number of posts to cover this week, so, let&amp;rsquo;s get started.&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;h2&gt;&lt;/h2&gt;&lt;h2&gt;Releases&lt;/h2&gt;&lt;div&gt;&lt;div&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt;We&amp;rsquo;ll start out with releases this time. There&amp;rsquo;s only three of them this week, but that doesn&amp;rsquo;t mean we&amp;rsquo;ve slacked off.&lt;/p&gt;&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;Hibernate Search 5.8.1.Final &lt;a href="http://in.relation.to/2017/10/04/hibernate-search-5-8-1-Final/" rel="nofollow" target="_blank"&gt;released&lt;/a&gt; a couple of days ago. There are many fixes for ElasticSearch in this maintenance release.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;a href="http://wildfly-swarm.io/posts/announcing-wildfly-swarm-2017-10-0/" rel="nofollow" target="_blank"&gt;Wildfly Swarm 2017.10.0&lt;/a&gt; also released two days ago.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;The first of the &lt;a href="http://blog.infinispan.org/2017/10/infinispan-920alpha1-released.html" rel="nofollow" target="_blank"&gt;Infinispan 9.2.0 branch&lt;/a&gt; released today, check it out!&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;h2&gt;&lt;/h2&gt;&lt;h2&gt;Announcements&lt;/h2&gt;&lt;div&gt;&lt;div&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt;By far the biggest announcement in the Java EE space happened earlier in the week with the announcement of EE4J! Our very own Mark Little &lt;a data-containerid="1427" data-containertype="37" data-objectid="6128" data-objecttype="38" href="https://developer.jboss.org/blogs/mark.little/2017/09/30/ee4j-life-beyond-java-ee-begins-today" target="_blank"&gt;blogged about it&lt;/a&gt;. If this is the first you&amp;rsquo;re seeing of it, be sure to read Mark&amp;rsquo;s blog and check out the charter. Everyone is welcome to participate. Please sign up for the mailing list and help us all move Enterprise Java forward!&lt;/p&gt;&lt;/div&gt;&lt;div&gt;&lt;p&gt;If you&amp;rsquo;re running on RHEL, you may be excited for the next couple of blogs from Mike Guerette. Earlier in the week, Red Hat announced the availability of &lt;a href="https://developers.redhat.com/blog/2017/10/04/red-hat-adds-go-clangllvm-rust-compiler-toolsets-updates-gcc/" rel="nofollow" target="_blank"&gt;Red Hat Developer Toolset 7.0 Beta&lt;/a&gt;. This beta brings updates to GCC (7.2) and adds Clang/LLVM 4.0.1, Go 1.8.3, and Rust 1.2.0 to the list of supported compilers! In addition to those, Mike also announced &lt;a href="https://developers.redhat.com/blog/2017/10/04/red-hat-updates-python-php-node-js-supports-new-arches/" rel="nofollow" target="_blank"&gt;Red Hat Software Collections 3.0 Beta&lt;/a&gt; which includes other updates and also new additions.&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;h2&gt;&lt;/h2&gt;&lt;h2&gt;Blog Highlights&lt;/h2&gt;&lt;div&gt;&lt;div&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt;To round out the week, there are a number of blog posts we&amp;rsquo;d like to highlight.&lt;/p&gt;&lt;/div&gt;&lt;div&gt;&lt;h3&gt;&lt;/h3&gt;&lt;h3&gt;Wildfly&lt;/h3&gt;&lt;div&gt;&lt;p&gt;Wildfly 11 will bring with it a number of changes. Among those changes is &lt;a href="http://wildfly.org/news/2017/10/03/Messaging-features/" rel="nofollow" target="_blank"&gt;integration with Apache ActiveMQ Artemis&lt;/a&gt;. Be sure to read the blog for changes and new features available. There&amp;rsquo;s also support for &lt;a href="http://wildfly.org/news/2017/10/06/OpenSSL-Support-In-Wildfly/" rel="nofollow" target="_blank"&gt;OpenSSL&lt;/a&gt;. The post details setup, security realms, and Elytron all with OpenSSL support! Lastly, Wildfly 11 improves the existing &lt;a href="http://wildfly.org/news/2017/09/29/Management-model-referential-integrity/" rel="nofollow" target="_blank"&gt;referential integrity&lt;/a&gt; found in Wildfly 10.&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;h3&gt;&lt;/h3&gt;&lt;h3&gt;Spring Boot on Kubernetes&lt;/h3&gt;&lt;div&gt;&lt;p&gt;Kamesh Sampath has done a series of posts over on the Red Hat Developer blog detailing configuring Spring Boot on Kubernetes. &lt;a href="https://developers.redhat.com/blog/2017/10/02/configuring-spring-boot-application-kubernetes/" rel="nofollow" target="_blank"&gt;The introduction&lt;/a&gt; of the series covers the initial idea of using Kubernetes for configuration of a Spring Boot application. &lt;a href="https://developers.redhat.com/blog/2017/10/03/configuring-spring-boot-kubernetes-configmap/" rel="nofollow" target="_blank"&gt;Part I&lt;/a&gt; covers using ConfigMaps for configuration. &lt;a href="https://developers.redhat.com/blog/2017/10/04/configuring-spring-boot-kubernetes-secrets/" rel="nofollow" target="_blank"&gt;Part II&lt;/a&gt; details the use of Secrets for sensitive information. These are great alternatives to the Spring Config server.&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;h3&gt;&lt;/h3&gt;&lt;h3&gt;OpenSlava&lt;/h3&gt;&lt;div&gt;&lt;p&gt;Lastly, Eric Schabell was at OpenSlava this past week. All of his &lt;a href="http://www.schabell.org/2017/10/openslava-2107-slides-keynote.html" rel="nofollow" target="_blank"&gt;talks&lt;/a&gt; &lt;a href="http://www.schabell.org/2017/10/openslava-2017-slides-lightning-talk.html" rel="nofollow" target="_blank"&gt;and&lt;/a&gt; &lt;a href="http://www.schabell.org/2017/10/openslava-2017-slides-breakout-session.html" rel="nofollow" target="_blank"&gt;slides&lt;/a&gt; are available on his blog and SlideShare!&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;/div&gt;&lt;div&gt;&lt;p&gt;Thank you, everyone! We hope you&amp;rsquo;ve had a great week!&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- [DocumentBodyEnd:fe9477c8-7381-4149-8955-b2a6ae07f3b8] --&gt;&lt;/body&gt;&lt;/html&gt;
+&lt;img src="http://feeds.feedburner.com/~r/jbossbuzz/~4/wqmzPT8eASs" height="1" width="1" alt=""/&gt;</content>
+	<updated>2017-10-06T23:18:36+00:00</updated>
+	<author><name>Jason Porter</name></author>
+	<source>
+		<link rel="self" href="http://community.jboss.org/blogs/weekly-editorial/feeds/" />
+		<title>Weekly Editorial</title></source>
+
+	<category term="infinispan" />
+
+	<category term="hibernate-search" />
+
+	<category term="weekly_editorial" />
+
+	<category term="wildfly" />
+
+	<category term="kubernetes" />
+
+	<category term="spring-boot" />
+
+	<category term="wildfly-swarm" />
+
+
+<feedburner:origLink>https://developer.jboss.org/blogs/weekly-editorial/2017/10/06/this-week-in-jboss-10-october-2017</feedburner:origLink></entry>
+
+<entry>
 	<id>https://developer.jboss.org/blogs/weekly-editorial/2017/09/29/this-week-in-jboss-28-sept-2017-to-bodly-go-where-to-javaone-has-not-gone-before</id>
 	<link href="http://feedproxy.google.com/~r/jbossbuzz/~3/ocVAqVyyA6o/this-week-in-jboss-28-sept-2017-to-bodly-go-where-to-javaone-has-not-gone-before" rel="alternate" type="text/html" />
 	<title>This week in JBoss (28 Sept 2017) - To bodly go where to JavaOne has (not) gone before...</title>
@@ -3638,71 +4033,6 @@
 
 
 <feedburner:origLink>https://tools.jboss.org/blog/11.0.0.ga-for-oxygen.0.html</feedburner:origLink></entry>
-
-<entry>
-	<id>https://developer.jboss.org/blogs/weekly-editorial/2017/08/12/this-week-in-jboss-10th-august-2017-rules-and-microservices-plus-much-more</id>
-	<link href="http://feedproxy.google.com/~r/jbossbuzz/~3/enTe2owh2t4/this-week-in-jboss-10th-august-2017-rules-and-microservices-plus-much-more" rel="alternate" type="text/html" />
-	<title>This week in JBoss (10th August 2017): Rules and Microservices plus much more</title>
-	<summary type="html"><![CDATA[<!-- [DocumentBodyStart:80627c70-2502-4e1c-a450-536e01d89d9c] --><div class="jive-rendered-content"><p>I enjoy reading about and being involved with different organizations that help young men and women get more involved in technology and the sciences.&#160; I like to help with codecamps but a part of my background is around security with Operating Systems and Middleware. Recently I found a US organization, <a class="jive-link-external-small" href="https://www.uscyberpatriot.org/" rel="nofollow">AFA CyberPatriot</a>, that helps youth learn more about finding vulnerabilities and hardening systems through competitions.&#160; Teams compete locally as well as the state level, and then move on to a national competition to compete for the national recognition and scholarship money.&#160; We all get busy in our endeavours, but finding a organization to help our youth, regardless of location in the world, has such an awesome reward.</p><p style="min-height: 8pt; padding: 0px;">&#160;</p><p style="font-weight: inherit; font-style: inherit; font-family: inherit;"><span style="color: #3a0699; font-weight: inherit; font-size: 18.6667px; font-family: inherit; font-style: inherit;"><em><strong>Now on to the happenings in our open source community!</strong></em></span></p><p style="min-height: 8pt; padding: 0px;">&#160;</p><p style="font-weight: inherit; font-style: inherit; font-family: inherit;"><span style="font-family: Cabin;"> </span><span style="color: #000000; font-weight: inherit; font-size: 24px; font-family: inherit; font-style: inherit;"><strong>The Past couple of Weeks Highlights</strong></span></p><ul><li><span style="font-weight: inherit; font-style: inherit; font-family: inherit;">Andrea Cosentino discussed <a class="jive-link-external-small" href="http://planet.jboss.org/post/introducing_infinispan_kafka_connect_your_kafka_cluster_with_infinispan" rel="nofollow">Infinispan-Kafka, connect your Kafka cluster with Infinispan</a></span></li><li><span style="font-weight: inherit; font-style: inherit; font-family: inherit;">Eric Schabell discussed <a class="jive-link-external-small" href="http://planet.jboss.org/post/how_to_optimize_existing_it_by_modernizing_travel_processes" rel="nofollow">How to optimize Existing IT by Modernizing Travel processes</a></span></li><li><span style="font-weight: inherit; font-style: inherit; font-family: inherit;">Christina Lin shared O<a class="jive-link-external-small" href="http://planet.jboss.org/post/organizing_microservices_modern_integration" rel="nofollow">rganizing Microservices - Modern Integration</a></span></li><li><span style="font-weight: inherit; font-style: inherit; font-family: inherit;">John Mazzitelli provided a demo on the <a class="jive-link-external-small" href="http://planet.jboss.org/post/hawkular_alerts_2_0_ui_wip" rel="nofollow">Hawkular Alerts 2.0 UI</a> and detail on <a class="jive-link-external-small" href="http://planet.jboss.org/post/hawkular_alerts_with_prometheus_elasticsearch_kafka0" rel="nofollow">Hawkular Alerts with Prometheus, ElasticSearch, Kafka</a></span></li><li><span style="font-weight: inherit; font-style: inherit; font-family: inherit;">Maciej Swiderski provided insight on <a class="jive-link-external-small" href="http://planet.jboss.org/post/managed_kie_server_gets_ready_for_the_cloud" rel="nofollow">Managed KIE Server getting ready for the cloud</a></span></li><li><span style="font-weight: inherit; font-style: inherit; font-family: inherit;">Christian Posta discussed <a class="jive-link-external-small" href="http://planet.jboss.org/post/application_network_functions_with_esbs_api_management_and_now_service_mesh" rel="nofollow">Application Network Functions with ESBs, API Management, and Now...Service Mesh?</a></span></li><li><span style="font-weight: inherit; font-style: inherit; font-family: inherit;">Kris Verlaenen touched on <a class="jive-link-external-small" href="http://planet.jboss.org/post/drools_jbpm_and_optaplanner_are_switching_to_agile_delivery0" rel="nofollow">Drools, jBPM and Optaplanner switching to agile delivery</a></span></li><li><span style="font-weight: inherit; font-style: inherit; font-family: inherit;">Mario Fusco discussed the <a class="jive-link-external-small" href="http://planet.jboss.org/post/drools_canonical_model_pure_java_rules" rel="nofollow">Drools Canonical Model - Pure Java Rules</a></span></li><li><span style="font-weight: inherit; font-style: inherit; font-family: inherit;">Edson Tirelli provided the talk on <a class="jive-link-external-small" href="http://planet.jboss.org/post/talking_about_rule_engines_at_software_engineering_radio" rel="nofollow">Rules Engines at Software Engineering Radio</a></span></li></ul><p style="min-height: 8pt; padding: 0px;">&#160;</p><p><span style="font-family: Cabin;"> </span><span style="color: #000000; font-weight: inherit; font-size: 24px; font-family: inherit; font-style: inherit;"><strong>The Past couple of Weeks Meetups and Conferences</strong></span></p><ul><li>Kris Verlaenen and Edson Tirelli shared<a class="jive-link-external-small" href="http://planet.jboss.org/post/drools_jbpm_and_optaplanner_day_september_26_28_2017_ny_washington" rel="nofollow"> Drools, jBPMS and Optaplanner Day which is taking place September 26 in New York and September 28 in Washington, DC</a></li><li>Claus Ibsen, the Camel guy, described his agenda for the<a class="jive-link-external-small" href="http://planet.jboss.org/post/the_camel_guy_going_on_apac_tour_this_august" rel="nofollow"> APAC tour this month</a></li></ul><p style="min-height: 8pt; padding: 0px;">&#160;</p><p><span style="font-family: Cabin;"> </span><span style="color: #000000; font-weight: inherit; font-size: 18pt; font-family: inherit; font-style: inherit;"><strong>The Past couple of Weeks Releases</strong></span></p><ul><li><span><span style="color: #424242; font-family: Cabin, sans-serif;">Steven Hawkins shared that Teiid 9.2.5 was </span><a class="jive-link-external-small" href="http://teiid.jboss.org/downloads_9x/" rel="nofollow">released</a> with<a class="jive-link-external-small" href="http://planet.jboss.org/post/teiid_9_2_5_released" rel="nofollow"> 6 </a></span><span style="color: #424242; font-family: Cabin, sans-serif; font-size: 16px;"><span><a class="jive-link-external-small" href="http://planet.jboss.org/post/teiid_9_2_5_released" rel="nofollow">issues addressed</a> and <a class="jive-link-external-small" href="http://planet.jboss.org/post/teiid_9_3_2_released" rel="nofollow">Teiid 9.3.2 was released</a></span><br/></span></li><li>The Arquillian Team provided the details on the <a class="jive-link-external-small" href="http://planet.jboss.org/post/graphene_2_3_1_released" rel="nofollow">Graphene 2.3.1 Release</a></li><li>The Wildfly Swarm Team provided the details on <a class="jive-link-external-small" href="http://planet.jboss.org/post/announcing_wildfly_swarm_2017_8_1" rel="nofollow">Wildfly Swarm 2017.8.1</a></li><li>Jason Greene provided the release information for <a class="jive-link-external-small" href="http://planet.jboss.org/post/wildfly_11_beta1_is_now_available" rel="nofollow">Wildfly 11 Beta1</a></li><li>The Arquillian team shared the details on the <a class="jive-link-external-small" href="http://planet.jboss.org/post/arquillian_transaction_extension_1_0_5_released" rel="nofollow">Arquillian Transaction Extension 1.0.5 Release</a> and <a class="jive-link-external-small" href="http://planet.jboss.org/post/arquillian_cube_extension_1_8_0_released" rel="nofollow">Arquillian Cube Extension 1.8.0 Release</a></li><li>Gunnar Morling shared the details on the <a class="jive-link-external-small" href="http://planet.jboss.org/post/bean_validation_2_0_is_a_spec" rel="nofollow">Bean Validation 2.0 Spec</a></li><li>Guillaume Smet discussed the <a class="jive-link-external-small" href="http://planet.jboss.org/post/and_here_comes_hibernate_validator_6_0_final_with_bean_validation_2_0_support" rel="nofollow">Hibernate Validator 6.0 Final with Bean Validation 2.0 Support</a></li><li>Kris Verlaenen highlighted the <a class="jive-link-external-small" href="http://planet.jboss.org/post/jbpm_7_1_available" rel="nofollow">jBPM 7.1 Release</a></li><li>The Vert.x Community shared the <a class="jive-link-external-small" href="http://planet.jboss.org/post/vert_x_3_5_0_beta1" rel="nofollow">Vert.x 3.5.0.Beta1 detail</a></li></ul><p style="min-height: 8pt; padding: 0px;">&#160;</p><p style="font-weight: inherit; font-style: inherit; font-family: Cabin;"><span style="color: #000080; font-weight: inherit; font-size: 18pt; font-family: inherit; font-style: inherit;"><em>Thanks for being a part of the JBoss Community and stay tuned for the next Weekly Editorial!</em></span></p><p style="min-height: 8pt; padding: 0px;">&#160;</p><p style="font-weight: inherit; font-style: inherit; font-family: Cabin;"><span style="font-weight: inherit; font-style: inherit; font-size: 12pt; font-family: inherit; color: #000000;">Kenneth Peeples</span></p><p style="font-weight: inherit; font-style: inherit; font-family: Cabin;"><span style="font-weight: inherit; font-style: inherit; font-size: 12pt; font-family: inherit; color: #000000;">Vice President of Engineering,</span></p><p style="font-weight: inherit; font-style: inherit; font-family: Cabin;"><span style="font-weight: inherit; font-style: inherit; font-size: 12pt; font-family: inherit; color: #000000;">Enterprise Services Practice, ISC-CG, Federal</span></p><p style="font-weight: inherit; font-style: inherit; font-family: Cabin;"><span style="font-weight: inherit; font-style: inherit; font-size: 12pt; font-family: inherit; color: #000000;"><a class="jive-link-email-small" href="mailto:kenneth.peeples@isc-cg.com" rel="nofollow" style="font-weight: inherit; font-style: inherit; font-family: inherit; color: #3778c7;">kenneth.peeples@isc-cg.com</a></span></p><p style="font-weight: inherit; font-style: inherit; font-family: Cabin;"><span style="font-weight: inherit; font-style: inherit; font-size: 12pt; font-family: inherit; color: #000000;">Open Source Solutions Director, Shadow-Soft, Commercial</span></p><p style="font-weight: inherit; font-style: inherit; font-family: Cabin;"><span style="font-weight: inherit; font-style: inherit; font-size: 12pt; font-family: inherit; color: #000000;"><a class="jive-link-email-small" href="mailto:kpeeples@shadow-soft.com" rel="nofollow" style="font-weight: inherit; font-style: inherit; font-family: inherit; color: #3778c7;">kpeeples@shadow-soft.com</a></span></p></div><!-- [DocumentBodyEnd:80627c70-2502-4e1c-a450-536e01d89d9c] -->]]></summary>
-	<content type="html">&lt;html&gt;&lt;!-- [DocumentBodyStart:80627c70-2502-4e1c-a450-536e01d89d9c] --&gt;&lt;body&gt;&lt;div&gt;&lt;p&gt;I enjoy reading about and being involved with different organizations that help young men and women get more involved in technology and the sciences.&amp;nbsp; I like to help with codecamps but a part of my background is around security with Operating Systems and Middleware. Recently I found a US organization, &lt;a href="https://www.uscyberpatriot.org/" rel="nofollow" target="_blank"&gt;AFA CyberPatriot&lt;/a&gt;, that helps youth learn more about finding vulnerabilities and hardening systems through competitions.&amp;nbsp; Teams compete locally as well as the state level, and then move on to a national competition to compete for the national recognition and scholarship money.&amp;nbsp; We all get busy in our endeavours, but finding a organization to help our youth, regardless of location in the world, has such an awesome reward.&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt;&lt;span&gt;&lt;em&gt;&lt;strong&gt;Now on to the happenings in our open source community!&lt;/strong&gt;&lt;/em&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;&lt;strong&gt;The Past couple of Weeks Highlights&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;span&gt;Andrea Cosentino discussed &lt;a href="http://planet.jboss.org/post/introducing_infinispan_kafka_connect_your_kafka_cluster_with_infinispan" rel="nofollow" target="_blank"&gt;Infinispan-Kafka, connect your Kafka cluster with Infinispan&lt;/a&gt;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span&gt;Eric Schabell discussed &lt;a href="http://planet.jboss.org/post/how_to_optimize_existing_it_by_modernizing_travel_processes" rel="nofollow" target="_blank"&gt;How to optimize Existing IT by Modernizing Travel processes&lt;/a&gt;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span&gt;Christina Lin shared O&lt;a href="http://planet.jboss.org/post/organizing_microservices_modern_integration" rel="nofollow" target="_blank"&gt;rganizing Microservices - Modern Integration&lt;/a&gt;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span&gt;John Mazzitelli provided a demo on the &lt;a href="http://planet.jboss.org/post/hawkular_alerts_2_0_ui_wip" rel="nofollow" target="_blank"&gt;Hawkular Alerts 2.0 UI&lt;/a&gt; and detail on &lt;a href="http://planet.jboss.org/post/hawkular_alerts_with_prometheus_elasticsearch_kafka0" rel="nofollow" target="_blank"&gt;Hawkular Alerts with Prometheus, ElasticSearch, Kafka&lt;/a&gt;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span&gt;Maciej Swiderski provided insight on &lt;a href="http://planet.jboss.org/post/managed_kie_server_gets_ready_for_the_cloud" rel="nofollow" target="_blank"&gt;Managed KIE Server getting ready for the cloud&lt;/a&gt;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span&gt;Christian Posta discussed &lt;a href="http://planet.jboss.org/post/application_network_functions_with_esbs_api_management_and_now_service_mesh" rel="nofollow" target="_blank"&gt;Application Network Functions with ESBs, API Management, and Now...Service Mesh?&lt;/a&gt;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span&gt;Kris Verlaenen touched on &lt;a href="http://planet.jboss.org/post/drools_jbpm_and_optaplanner_are_switching_to_agile_delivery0" rel="nofollow" target="_blank"&gt;Drools, jBPM and Optaplanner switching to agile delivery&lt;/a&gt;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span&gt;Mario Fusco discussed the &lt;a href="http://planet.jboss.org/post/drools_canonical_model_pure_java_rules" rel="nofollow" target="_blank"&gt;Drools Canonical Model - Pure Java Rules&lt;/a&gt;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span&gt;Edson Tirelli provided the talk on &lt;a href="http://planet.jboss.org/post/talking_about_rule_engines_at_software_engineering_radio" rel="nofollow" target="_blank"&gt;Rules Engines at Software Engineering Radio&lt;/a&gt;&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;&lt;strong&gt;The Past couple of Weeks Meetups and Conferences&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Kris Verlaenen and Edson Tirelli shared&lt;a href="http://planet.jboss.org/post/drools_jbpm_and_optaplanner_day_september_26_28_2017_ny_washington" rel="nofollow" target="_blank"&gt; Drools, jBPMS and Optaplanner Day which is taking place September 26 in New York and September 28 in Washington, DC&lt;/a&gt;&lt;/li&gt;&lt;li&gt;Claus Ibsen, the Camel guy, described his agenda for the&lt;a href="http://planet.jboss.org/post/the_camel_guy_going_on_apac_tour_this_august" rel="nofollow" target="_blank"&gt; APAC tour this month&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;&lt;strong&gt;The Past couple of Weeks Releases&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;span&gt;&lt;span&gt;Steven Hawkins shared that Teiid 9.2.5 was &lt;/span&gt;&lt;a href="http://teiid.jboss.org/downloads_9x/" rel="nofollow" target="_blank"&gt;released&lt;/a&gt; with&lt;a href="http://planet.jboss.org/post/teiid_9_2_5_released" rel="nofollow" target="_blank"&gt; 6 &lt;/a&gt;&lt;/span&gt;&lt;span&gt;&lt;span&gt;&lt;a href="http://planet.jboss.org/post/teiid_9_2_5_released" rel="nofollow" target="_blank"&gt;issues addressed&lt;/a&gt; and &lt;a href="http://planet.jboss.org/post/teiid_9_3_2_released" rel="nofollow" target="_blank"&gt;Teiid 9.3.2 was released&lt;/a&gt;&lt;/span&gt;&lt;br&gt;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;The Arquillian Team provided the details on the &lt;a href="http://planet.jboss.org/post/graphene_2_3_1_released" rel="nofollow" target="_blank"&gt;Graphene 2.3.1 Release&lt;/a&gt;&lt;/li&gt;&lt;li&gt;The Wildfly Swarm Team provided the details on &lt;a href="http://planet.jboss.org/post/announcing_wildfly_swarm_2017_8_1" rel="nofollow" target="_blank"&gt;Wildfly Swarm 2017.8.1&lt;/a&gt;&lt;/li&gt;&lt;li&gt;Jason Greene provided the release information for &lt;a href="http://planet.jboss.org/post/wildfly_11_beta1_is_now_available" rel="nofollow" target="_blank"&gt;Wildfly 11 Beta1&lt;/a&gt;&lt;/li&gt;&lt;li&gt;The Arquillian team shared the details on the &lt;a href="http://planet.jboss.org/post/arquillian_transaction_extension_1_0_5_released" rel="nofollow" target="_blank"&gt;Arquillian Transaction Extension 1.0.5 Release&lt;/a&gt; and &lt;a href="http://planet.jboss.org/post/arquillian_cube_extension_1_8_0_released" rel="nofollow" target="_blank"&gt;Arquillian Cube Extension 1.8.0 Release&lt;/a&gt;&lt;/li&gt;&lt;li&gt;Gunnar Morling shared the details on the &lt;a href="http://planet.jboss.org/post/bean_validation_2_0_is_a_spec" rel="nofollow" target="_blank"&gt;Bean Validation 2.0 Spec&lt;/a&gt;&lt;/li&gt;&lt;li&gt;Guillaume Smet discussed the &lt;a href="http://planet.jboss.org/post/and_here_comes_hibernate_validator_6_0_final_with_bean_validation_2_0_support" rel="nofollow" target="_blank"&gt;Hibernate Validator 6.0 Final with Bean Validation 2.0 Support&lt;/a&gt;&lt;/li&gt;&lt;li&gt;Kris Verlaenen highlighted the &lt;a href="http://planet.jboss.org/post/jbpm_7_1_available" rel="nofollow" target="_blank"&gt;jBPM 7.1 Release&lt;/a&gt;&lt;/li&gt;&lt;li&gt;The Vert.x Community shared the &lt;a href="http://planet.jboss.org/post/vert_x_3_5_0_beta1" rel="nofollow" target="_blank"&gt;Vert.x 3.5.0.Beta1 detail&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt;&lt;span&gt;&lt;em&gt;Thanks for being a part of the JBoss Community and stay tuned for the next Weekly Editorial!&lt;/em&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt;&lt;span&gt;Kenneth Peeples&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;Vice President of Engineering,&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;Enterprise Services Practice, ISC-CG, Federal&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;&lt;a href="mailto:kenneth.peeples@isc-cg.com" rel="nofollow" target="_blank"&gt;kenneth.peeples@isc-cg.com&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;Open Source Solutions Director, Shadow-Soft, Commercial&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;&lt;a href="mailto:kpeeples@shadow-soft.com" rel="nofollow" target="_blank"&gt;kpeeples@shadow-soft.com&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;&lt;!-- [DocumentBodyEnd:80627c70-2502-4e1c-a450-536e01d89d9c] --&gt;&lt;/body&gt;&lt;/html&gt;
-&lt;img src="http://feeds.feedburner.com/~r/jbossbuzz/~4/enTe2owh2t4" height="1" width="1" alt=""/&gt;</content>
-	<updated>2017-08-13T02:35:30+00:00</updated>
-	<author><name>Kenneth Peeples</name></author>
-	<source>
-		<link rel="self" href="http://community.jboss.org/blogs/weekly-editorial/feeds/" />
-		<title>Weekly Editorial</title></source>
-
-	<category term="jbpm" />
-
-	<category term="rules" />
-
-	<category term="camel" />
-
-	<category term="wildfly" />
-
-	<category term="microservices" />
-
-	<category term="swarm" />
-
-
-<feedburner:origLink>https://developer.jboss.org/blogs/weekly-editorial/2017/08/12/this-week-in-jboss-10th-august-2017-rules-and-microservices-plus-much-more</feedburner:origLink></entry>
-
-<entry>
-	<id>https://developer.jboss.org/blogs/weekly-editorial/2017/07/27/this-week-in-jboss-27th-july-2017-optaplanner-clustered-counters-containers-and-more</id>
-	<link href="http://feedproxy.google.com/~r/jbossbuzz/~3/ki2ZIGBG7Ac/this-week-in-jboss-27th-july-2017-optaplanner-clustered-counters-containers-and-more" rel="alternate" type="text/html" />
-	<title>This week in JBoss (27th July 2017): OptaPlanner, Clustered Counters, Containers and more</title>
-	<summary type="html"><![CDATA[<!-- [DocumentBodyStart:d86f1084-42aa-4b17-a714-4749f3bfe648] --><div class="jive-rendered-content"><p>Welcome to another edition of the JBoss Weekly Editorial, another trip through the JBoss Communities in search of interesting articles and topics.</p><p style="min-height: 8pt; padding: 0px;">&#160;</p><h2>Red Hat Summit Interview with Geoffrey De Smet</h2><p style="min-height: 8pt; padding: 0px;">&#160;</p><p><iframe allowfullscreen="allowfullscreen" frameborder="0" height="330" scrolling="no" src="https://www.youtube.com/embed/gdXxkZmGp1Q" title="Red Hat Developers - Geoffrey De Smet - YouTube" width="440">
-</iframe></p><p style="min-height: 8pt; padding: 0px;">&#160;</p><p>In this week's developer interview Jason Porter interviews Geoffrey De Smet, a Principal Software Engineer with Red Hat and technical lead of the OptaPlanner constraint satisfaction solver project.</p><p style="min-height: 8pt; padding: 0px;">&#160;</p><h2>Cluster Counters in Infinispan</h2><p style="min-height: 8pt; padding: 0px;">&#160;</p><p><a class="jive-link-external-small" href="http://infinispan.org/" rel="nofollow">Infinispan</a> 9.1 introduced a new feature <a class="jive-link-external-small" href="http://blog.infinispan.org/2017/07/cluster-counter.html" rel="nofollow">enabling support for cluster counters which are distributed amongst all nodes in the cluster</a>.&#160; There are two flavours of cluster, counter, strong counters which provide atomic access during updates and weak counters which supports eventual consistency and faster writes.</p><p style="min-height: 8pt; padding: 0px;">&#160;</p><h2>Improvements to Hawkular Grafana</h2><p style="min-height: 8pt; padding: 0px;">&#160;</p><p>The <a class="jive-link-external-small" href="http://www.hawkular.org/" rel="nofollow">hawkular</a> team have <a class="jive-link-external-small" href="http://www.hawkular.org/blog/2017/07/grafana-new-query-interface.html" rel="nofollow">introduced two significant improvements in their Hawkular Grafana datasource</a>.&#160; The first improvement is the ability to use the Hawkular Metrics' query language instead of simple key/value pairs, supported by a more elaborate query builder within the UI; the second improvement allows queries to run against aggregated sets of metric data, reducing network load and the amount of processing on the client side.</p><p style="min-height: 8pt; padding: 0px;">&#160;</p><h2>JBoss Community Asylum - Episode 45</h2><p style="min-height: 8pt; padding: 0px;">&#160;</p><p>The next episode of the JBoss Community Asylum podcast is now available, hosted by Emmanuel Bernard and Max Andersen.&#160; In this episode <a class="jive-link-external-small" href="http://jbosscommunityasylum.libsyn.com/podcast-45-minishift" rel="nofollow">Emmanuel and Max interview Hardy Ferentschik and discuss minishift</a>, a project which enables you to setup and run a single node OpenShift cluster within a VM.</p><p style="min-height: 8pt; padding: 0px;">&#160;</p><h2>Why I Started Using Containers</h2><p style="min-height: 8pt; padding: 0px;">&#160;</p><p>The last few years has seen a rise in the popularity of containers within enterprises, allowing applications to be deployed with greater density and flexibility than was previously possible, however many are still considering their adoption and looking for reasons to do so.&#160; If you are still considering the adoption of containers within your enterprise then <a class="jive-link-external-small" href="https://developers.redhat.com/blog/2017/07/27/6-reasons-why-i-started-using-containers/" rel="nofollow">Ricardo's reflections, after many years of experience using containers, may be of great interest</a>.</p><p style="min-height: 8pt; padding: 0px;">&#160;</p><h2>Optimising IT in Retail Processes</h2><p style="min-height: 8pt; padding: 0px;">&#160;</p><p>In the third installment of his series on "Optimizing IT" <a class="jive-link-external-small" href="http://www.schabell.org/2017/07/how-to-optimize-existing-it-modernizing-retail-processes.html" rel="nofollow">Eric Schabell discusses options for how retail processes can be optimised by leveraging existing projects and investments and deploying to a modern container-based cloud platform</a>, showcasing some of these options through the Red Hat Cloud Suite product.</p><p style="min-height: 8pt; padding: 0px;">&#160;</p><h2>Hibernate News</h2><p style="min-height: 8pt; padding: 0px;">&#160;</p><p>The latest version of <a class="jive-link-external-small" href="http://in.relation.to/2017/07/24/hibernate-community-newsletter-2017-14/" rel="nofollow">Hibernate News</a> is out bringing new articles from the Hibernate Community.&#160; Within this edition of the newsletter are articles discussing the differences between persist and merge in relation to JPA transaction boundaries, using Hibernate in Grails, some caveats of using Streams when limiting records fetched by a JDBC ResultSet and many more.</p><p style="min-height: 8pt; padding: 0px;">&#160;</p><h2>JBoss Out and About</h2><p style="min-height: 8pt; padding: 0px;">&#160;</p><p>This October 5th and 6th sees <a class="jive-link-external-small" href="http://www.openslava.sk/2017" rel="nofollow">OpenSlava 2017</a> return to the beautiful city of Bratislava in Slovakia.&#160; Eric Schabell will be giving the <a class="jive-link-external-small" href="http://www.schabell.org/2017/07/openslava-keynote-appdev-in-cloud-showcase.html" rel="nofollow">opening keynote session on open source, Red Hat and what's interesting in our emerging technologies</a> and will also be submitting proposals for other talks he is hoping to present during the conference.&#160; Registrations for the conference should be opening soon.</p><p style="min-height: 8pt; padding: 0px;">&#160;</p><h2>New Releases</h2><p style="min-height: 8pt; padding: 0px;">&#160;</p><ul><li>The <a class="jive-link-external-small" href="http://keycloak.org/" rel="nofollow">Keycloak</a> team have released <a class="jive-link-external-small" href="http://blog.keycloak.org/2017/07/keycloak-321final-released.html" rel="nofollow">Keycloak 3.2.1.Final</a></li><li>The <a class="jive-link-external-small" href="http://hibernate.org/" rel="nofollow">Hibernate</a> team have released <a class="jive-link-external-small" href="http://in.relation.to/2017/07/25/hibernate-orm-519-final-release/" rel="nofollow">Hibernate ORM 5.1.9.Final</a></li><li>The <a class="jive-link-external-small" href="http://teiid.org/" rel="nofollow">Teiid</a> team have released <a class="jive-link-external-small" href="http://teiid.blogspot.ca/2017/07/teiid-1000alpha2-released.html" rel="nofollow">Teiid 10.0.0.Alpha2</a></li></ul><p style="min-height: 8pt; padding: 0px;">&#160;</p><p>That's all for this week's edition of the JBoss Weekly Editorial, please join us again next week when we will bring you more updates and content from the JBoss Communities.</p></div><!-- [DocumentBodyEnd:d86f1084-42aa-4b17-a714-4749f3bfe648] -->]]></summary>
-	<content type="html">&lt;html&gt;&lt;!-- [DocumentBodyStart:d86f1084-42aa-4b17-a714-4749f3bfe648] --&gt;&lt;body&gt;&lt;div&gt;&lt;p&gt;Welcome to another edition of the JBoss Weekly Editorial, another trip through the JBoss Communities in search of interesting articles and topics.&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;h2&gt;Red Hat Summit Interview with Geoffrey De Smet&lt;/h2&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt;In this week's developer interview Jason Porter interviews Geoffrey De Smet, a Principal Software Engineer with Red Hat and technical lead of the OptaPlanner constraint satisfaction solver project.&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;h2&gt;Cluster Counters in Infinispan&lt;/h2&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt;&lt;a href="http://infinispan.org/" rel="nofollow" target="_blank"&gt;Infinispan&lt;/a&gt; 9.1 introduced a new feature &lt;a href="http://blog.infinispan.org/2017/07/cluster-counter.html" rel="nofollow" target="_blank"&gt;enabling support for cluster counters which are distributed amongst all nodes in the cluster&lt;/a&gt;.&amp;nbsp; There are two flavours of cluster, counter, strong counters which provide atomic access during updates and weak counters which supports eventual consistency and faster writes.&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;h2&gt;Improvements to Hawkular Grafana&lt;/h2&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt;The &lt;a href="http://www.hawkular.org/" rel="nofollow" target="_blank"&gt;hawkular&lt;/a&gt; team have &lt;a href="http://www.hawkular.org/blog/2017/07/grafana-new-query-interface.html" rel="nofollow" target="_blank"&gt;introduced two significant improvements in their Hawkular Grafana datasource&lt;/a&gt;.&amp;nbsp; The first improvement is the ability to use the Hawkular Metrics' query language instead of simple key/value pairs, supported by a more elaborate query builder within the UI; the second improvement allows queries to run against aggregated sets of metric data, reducing network load and the amount of processing on the client side.&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;h2&gt;JBoss Community Asylum - Episode 45&lt;/h2&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt;The next episode of the JBoss Community Asylum podcast is now available, hosted by Emmanuel Bernard and Max Andersen.&amp;nbsp; In this episode &lt;a href="http://jbosscommunityasylum.libsyn.com/podcast-45-minishift" rel="nofollow" target="_blank"&gt;Emmanuel and Max interview Hardy Ferentschik and discuss minishift&lt;/a&gt;, a project which enables you to setup and run a single node OpenShift cluster within a VM.&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;h2&gt;Why I Started Using Containers&lt;/h2&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt;The last few years has seen a rise in the popularity of containers within enterprises, allowing applications to be deployed with greater density and flexibility than was previously possible, however many are still considering their adoption and looking for reasons to do so.&amp;nbsp; If you are still considering the adoption of containers within your enterprise then &lt;a href="https://developers.redhat.com/blog/2017/07/27/6-reasons-why-i-started-using-containers/" rel="nofollow" target="_blank"&gt;Ricardo's reflections, after many years of experience using containers, may be of great interest&lt;/a&gt;.&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;h2&gt;Optimising IT in Retail Processes&lt;/h2&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt;In the third installment of his series on "Optimizing IT" &lt;a href="http://www.schabell.org/2017/07/how-to-optimize-existing-it-modernizing-retail-processes.html" rel="nofollow" target="_blank"&gt;Eric Schabell discusses options for how retail processes can be optimised by leveraging existing projects and investments and deploying to a modern container-based cloud platform&lt;/a&gt;, showcasing some of these options through the Red Hat Cloud Suite product.&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;h2&gt;Hibernate News&lt;/h2&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt;The latest version of &lt;a href="http://in.relation.to/2017/07/24/hibernate-community-newsletter-2017-14/" rel="nofollow" target="_blank"&gt;Hibernate News&lt;/a&gt; is out bringing new articles from the Hibernate Community.&amp;nbsp; Within this edition of the newsletter are articles discussing the differences between persist and merge in relation to JPA transaction boundaries, using Hibernate in Grails, some caveats of using Streams when limiting records fetched by a JDBC ResultSet and many more.&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;h2&gt;JBoss Out and About&lt;/h2&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt;This October 5th and 6th sees &lt;a href="http://www.openslava.sk/2017" rel="nofollow" target="_blank"&gt;OpenSlava 2017&lt;/a&gt; return to the beautiful city of Bratislava in Slovakia.&amp;nbsp; Eric Schabell will be giving the &lt;a href="http://www.schabell.org/2017/07/openslava-keynote-appdev-in-cloud-showcase.html" rel="nofollow" target="_blank"&gt;opening keynote session on open source, Red Hat and what's interesting in our emerging technologies&lt;/a&gt; and will also be submitting proposals for other talks he is hoping to present during the conference.&amp;nbsp; Registrations for the conference should be opening soon.&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;h2&gt;New Releases&lt;/h2&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;The &lt;a href="http://keycloak.org/" rel="nofollow" target="_blank"&gt;Keycloak&lt;/a&gt; team have released &lt;a href="http://blog.keycloak.org/2017/07/keycloak-321final-released.html" rel="nofollow" target="_blank"&gt;Keycloak 3.2.1.Final&lt;/a&gt;&lt;/li&gt;&lt;li&gt;The &lt;a href="http://hibernate.org/" rel="nofollow" target="_blank"&gt;Hibernate&lt;/a&gt; team have released &lt;a href="http://in.relation.to/2017/07/25/hibernate-orm-519-final-release/" rel="nofollow" target="_blank"&gt;Hibernate ORM 5.1.9.Final&lt;/a&gt;&lt;/li&gt;&lt;li&gt;The &lt;a href="http://teiid.org/" rel="nofollow" target="_blank"&gt;Teiid&lt;/a&gt; team have released &lt;a href="http://teiid.blogspot.ca/2017/07/teiid-1000alpha2-released.html" rel="nofollow" target="_blank"&gt;Teiid 10.0.0.Alpha2&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt;That's all for this week's edition of the JBoss Weekly Editorial, please join us again next week when we will bring you more updates and content from the JBoss Communities.&lt;/p&gt;&lt;/div&gt;&lt;!-- [DocumentBodyEnd:d86f1084-42aa-4b17-a714-4749f3bfe648] --&gt;&lt;/body&gt;&lt;/html&gt;
-&lt;img src="http://feeds.feedburner.com/~r/jbossbuzz/~4/ki2ZIGBG7Ac" height="1" width="1" alt=""/&gt;</content>
-	<updated>2017-07-28T02:42:49+00:00</updated>
-	<author><name>Kevin Conner</name></author>
-	<source>
-		<link rel="self" href="http://community.jboss.org/blogs/weekly-editorial/feeds/" />
-		<title>Weekly Editorial</title></source>
-
-	<category term="hibernate" />
-
-	<category term="teiid" />
-
-	<category term="infinispan" />
-
-	<category term="containers" />
-
-	<category term="news" />
-
-	<category term="weekly_editorial" />
-
-	<category term="optaplanner" />
-
-	<category term="keycloak" />
-
-	<category term="weekly_udpate" />
-
-	<category term="hawkular" />
-
-
-<feedburner:origLink>https://developer.jboss.org/blogs/weekly-editorial/2017/07/27/this-week-in-jboss-27th-july-2017-optaplanner-clustered-counters-containers-and-more</feedburner:origLink></entry>
 
 
 </feed><!-- vim:ft=xml
