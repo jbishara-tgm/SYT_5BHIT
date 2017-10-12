@@ -1,29 +1,31 @@
 package bishara;
 
+import java.sql.Statement;
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.ResultSet;
+
+import javax.ws.rs.FormParam;
 import javax.ws.rs.GET;
+import javax.ws.rs.POST;
 import javax.ws.rs.Path;
-import javax.ws.rs.PathParam;
 import javax.ws.rs.Produces;
-import javax.ws.rs.core.Response;
-import org.json.JSONException;
-import org.json.JSONObject;
+import javax.ws.rs.core.MediaType;
 
 @Path("/login")
 public class Login {
-
+	DB db = DB.getInstance();
 	@GET
-	@Produces("application/html")
-	public String einloggen() throws Exception {
+	@Produces(MediaType.TEXT_HTML)
+	public String login() throws Exception {
 		
 		
 		return "<html>\r\n" + 
 				"<head><meta charset=\"UTF-8\"></head>\r\n" + 
 				"<body>\r\n" + 
-				"<form>\r\n" + 
-				"  First name:<br>\r\n" + 
-				"  <input type=\"text\" name=\"firstname\"><br>\r\n" + 
-				"  Last name:<br>\r\n" + 
-				"  <input type=\"text\" name=\"lastname\">\r\n" + 
+				"<form method=\"post\">\r\n" + 
+				"   E-Mail:<br>\r\n" + 
+				"  <input type=\"text\" name=\"mail\"><br>\r\n" + 
 				"  Password:<br>\r\n" + 
 				"  <input type=\"password\" name=\"pw\">\r\n" + 
 				"  <input type=\"submit\" value=\"Submit\">\r\n" + 
@@ -32,19 +34,18 @@ public class Login {
 				"</html>\r\n" + 
 				"";
 	}
+	
+	@POST
+	@Produces(MediaType.TEXT_HTML)
+	public void submit(@FormParam("mail") String mail,@FormParam("pw") String pw) {
+		try {
+		DB.getInstance().createTable();
+        DB.getInstance().loginUser(mail, pw);
+        //con.close();
 
-	@Path("{f}")
-	@GET
-	@Produces("application/json")
-	public Response convertFtoCfromInput(@PathParam("f") float f) throws JSONException {
-
-		JSONObject jsonObject = new JSONObject();
-		float celsius;
-		celsius = (f - 32) * 5 / 9;
-		jsonObject.put("F Value", f);
-		jsonObject.put("C Value", celsius);
-
-		String result = "@Produces(\"application/json\") Output: \n\nF to C Converter Output: \n\n" + jsonObject;
-		return Response.status(200).entity(result).build();
+		}catch(Exception e) {
+			System.out.println("nix geht");
+			e.printStackTrace();
+		}
 	}
 }

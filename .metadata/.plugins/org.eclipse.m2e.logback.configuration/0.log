@@ -1863,3 +1863,461 @@ Caused by: org.codehaus.plexus.util.xml.pull.XmlPullParserException: end tag nam
 2017-10-12 11:39:18,719 [Worker-19] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for GK9_3_neu
 2017-10-12 11:39:18,724 [Worker-19] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
 2017-10-12 11:39:18,785 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-10-12 12:20:51,803 [Worker-11] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-12 12:20:51,813 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Schule\5.Jahrgang\SYT\SYT_5BHIT\GK9_3_neu\src\main\resources
+2017-10-12 12:20:51,815 [Worker-11] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-12 12:20:51,827 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Schule\5.Jahrgang\SYT\SYT_5BHIT\GK9_3_neu\src\test\resources
+2017-10-12 12:23:45,747 [Worker-28] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: GK9_3_neu:GK9_3_neu:0.0.1-SNAPSHOT @ D:\Schule\5.Jahrgang\SYT\SYT_5BHIT\GK9_3_neu\pom.xml.
+2017-10-12 12:23:47,590 [Worker-28] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-12 12:23:47,598 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Schule\5.Jahrgang\SYT\SYT_5BHIT\GK9_3_neu\src\main\resources
+2017-10-12 12:23:47,600 [Worker-28] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-12 12:23:47,609 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Schule\5.Jahrgang\SYT\SYT_5BHIT\GK9_3_neu\src\test\resources
+2017-10-12 12:23:47,610 [Worker-28] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of GK9_3_neu
+2017-10-12 12:23:47,610 [Worker-28] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for GK9_3_neu
+2017-10-12 12:23:47,617 [Worker-28] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-12 12:23:47,628 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-10-12 12:23:47,946 [Worker-28] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-12 12:23:47,951 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Schule\5.Jahrgang\SYT\SYT_5BHIT\GK9_3_neu\src\main\resources
+2017-10-12 12:23:47,952 [Worker-28] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-12 12:23:47,960 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Schule\5.Jahrgang\SYT\SYT_5BHIT\GK9_3_neu\src\test\resources
+2017-10-12 12:23:53,925 [Worker-33] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2017-10-12 12:23:54,370 [Worker-33] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: GK9_3_neu:GK9_3_neu:0.0.1-SNAPSHOT @ D:\Schule\5.Jahrgang\SYT\SYT_5BHIT\GK9_3_neu\pom.xml.
+2017-10-12 12:23:55,012 [Worker-33] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /GK9_3_neu/src
+2017-10-12 12:23:55,012 [Worker-33] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Not adding source folder /GK9_3_neu/src/test/java because it overlaps with /GK9_3_neu/src
+2017-10-12 12:23:55,407 [Worker-33] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for GK9_3_neu
+2017-10-12 12:23:55,412 [Worker-33] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 1 sec
+2017-10-12 12:23:55,672 [Worker-33] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-12 12:23:55,730 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Schule\5.Jahrgang\SYT\SYT_5BHIT\GK9_3_neu\src\main\resources
+2017-10-12 12:23:55,732 [Worker-33] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-12 12:23:55,840 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Schule\5.Jahrgang\SYT\SYT_5BHIT\GK9_3_neu\src\test\resources
+2017-10-12 12:23:55,841 [Worker-33] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of GK9_3_neu
+2017-10-12 12:23:55,841 [Worker-33] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for GK9_3_neu
+2017-10-12 12:23:55,846 [Worker-33] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-12 12:23:55,917 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-10-12 12:24:25,558 [Worker-35] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-12 12:24:25,570 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Schule\5.Jahrgang\SYT\SYT_5BHIT\GK9_3_neu\src\main\resources
+2017-10-12 12:24:25,572 [Worker-35] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-12 12:24:25,580 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Schule\5.Jahrgang\SYT\SYT_5BHIT\GK9_3_neu\src\test\resources
+2017-10-12 12:27:36,991 [Worker-33] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: GK9_3_neu:GK9_3_neu:0.0.1-SNAPSHOT @ D:\Schule\5.Jahrgang\SYT\SYT_5BHIT\GK9_3_neu\pom.xml.
+2017-10-12 12:27:37,637 [Worker-33] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/h2database/h2/1.1.104/h2-1.1.104.pom
+2017-10-12 12:27:37,643 [Worker-33] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.h2database:h2:jar:1.1.104 is missing, no dependency information available
+2017-10-12 12:27:37,876 [Worker-33] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/h2database/h2/1.1.104/h2-1.1.104.jar
+2017-10-12 12:27:37,902 [Worker-33] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.h2database:h2:jar:1.1.104 is missing, no dependency information available
+2017-10-12 12:27:39,460 [Worker-33] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-12 12:27:39,467 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Schule\5.Jahrgang\SYT\SYT_5BHIT\GK9_3_neu\src\main\resources
+2017-10-12 12:27:39,468 [Worker-33] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-12 12:27:39,477 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Schule\5.Jahrgang\SYT\SYT_5BHIT\GK9_3_neu\src\test\resources
+2017-10-12 12:27:39,477 [Worker-33] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of GK9_3_neu
+2017-10-12 12:27:39,477 [Worker-33] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for GK9_3_neu
+2017-10-12 12:27:39,485 [Worker-33] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-12 12:27:39,497 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-10-12 12:27:50,677 [Worker-36] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: GK9_3_neu:GK9_3_neu:0.0.1-SNAPSHOT @ D:\Schule\5.Jahrgang\SYT\SYT_5BHIT\GK9_3_neu\pom.xml.
+2017-10-12 12:27:51,142 [Worker-36] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-12 12:27:51,148 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Schule\5.Jahrgang\SYT\SYT_5BHIT\GK9_3_neu\src\main\resources
+2017-10-12 12:27:51,149 [Worker-36] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-12 12:27:51,155 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Schule\5.Jahrgang\SYT\SYT_5BHIT\GK9_3_neu\src\test\resources
+2017-10-12 12:27:51,156 [Worker-36] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of GK9_3_neu
+2017-10-12 12:27:51,156 [Worker-36] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for GK9_3_neu
+2017-10-12 12:27:51,160 [Worker-36] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-12 12:27:51,167 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-10-12 12:27:52,792 [Worker-39] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-12 12:27:52,814 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Schule\5.Jahrgang\SYT\SYT_5BHIT\GK9_3_neu\src\main\resources
+2017-10-12 12:27:52,816 [Worker-39] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-12 12:27:52,841 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Schule\5.Jahrgang\SYT\SYT_5BHIT\GK9_3_neu\src\test\resources
+2017-10-12 12:27:55,325 [Worker-33] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: GK9_3_neu:GK9_3_neu:0.0.1-SNAPSHOT @ D:\Schule\5.Jahrgang\SYT\SYT_5BHIT\GK9_3_neu\pom.xml.
+2017-10-12 12:27:55,881 [Worker-33] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-12 12:27:55,891 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Schule\5.Jahrgang\SYT\SYT_5BHIT\GK9_3_neu\src\main\resources
+2017-10-12 12:27:55,893 [Worker-33] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-12 12:27:55,902 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Schule\5.Jahrgang\SYT\SYT_5BHIT\GK9_3_neu\src\test\resources
+2017-10-12 12:27:55,903 [Worker-33] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of GK9_3_neu
+2017-10-12 12:27:55,903 [Worker-33] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for GK9_3_neu
+2017-10-12 12:27:55,906 [Worker-33] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-12 12:27:55,916 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-10-12 12:29:18,926 [Worker-37] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-12 12:29:18,938 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Schule\5.Jahrgang\SYT\SYT_5BHIT\GK9_3_neu\src\main\resources
+2017-10-12 12:29:18,940 [Worker-37] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-12 12:29:18,951 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Schule\5.Jahrgang\SYT\SYT_5BHIT\GK9_3_neu\src\test\resources
+2017-10-12 12:29:38,007 [Worker-37] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-12 12:29:38,023 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Schule\5.Jahrgang\SYT\SYT_5BHIT\GK9_3_neu\src\main\resources
+2017-10-12 12:29:38,024 [Worker-37] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-12 12:29:38,034 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Schule\5.Jahrgang\SYT\SYT_5BHIT\GK9_3_neu\src\test\resources
+2017-10-12 12:29:50,631 [Worker-36] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-12 12:29:50,641 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Schule\5.Jahrgang\SYT\SYT_5BHIT\GK9_3_neu\src\main\resources
+2017-10-12 12:29:50,642 [Worker-36] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-12 12:29:50,649 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Schule\5.Jahrgang\SYT\SYT_5BHIT\GK9_3_neu\src\test\resources
+2017-10-12 12:30:39,672 [Worker-36] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-12 12:30:39,678 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Schule\5.Jahrgang\SYT\SYT_5BHIT\GK9_3_neu\src\main\resources
+2017-10-12 12:30:39,679 [Worker-36] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-12 12:30:39,685 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Schule\5.Jahrgang\SYT\SYT_5BHIT\GK9_3_neu\src\test\resources
+2017-10-12 12:30:50,182 [Worker-37] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-12 12:30:50,192 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Schule\5.Jahrgang\SYT\SYT_5BHIT\GK9_3_neu\src\main\resources
+2017-10-12 12:30:50,193 [Worker-37] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-12 12:30:50,199 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Schule\5.Jahrgang\SYT\SYT_5BHIT\GK9_3_neu\src\test\resources
+2017-10-12 12:31:07,282 [Worker-41] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-12 12:31:07,287 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Schule\5.Jahrgang\SYT\SYT_5BHIT\GK9_3_neu\src\main\resources
+2017-10-12 12:31:07,288 [Worker-41] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-12 12:31:07,293 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Schule\5.Jahrgang\SYT\SYT_5BHIT\GK9_3_neu\src\test\resources
+2017-10-12 12:34:28,197 [Worker-40] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-12 12:34:28,203 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Schule\5.Jahrgang\SYT\SYT_5BHIT\GK9_3_neu\src\main\resources
+2017-10-12 12:34:28,204 [Worker-40] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-12 12:34:28,210 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Schule\5.Jahrgang\SYT\SYT_5BHIT\GK9_3_neu\src\test\resources
+2017-10-12 12:35:00,930 [Worker-40] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-12 12:35:00,938 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Schule\5.Jahrgang\SYT\SYT_5BHIT\GK9_3_neu\src\main\resources
+2017-10-12 12:35:00,941 [Worker-40] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-12 12:35:00,947 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Schule\5.Jahrgang\SYT\SYT_5BHIT\GK9_3_neu\src\test\resources
+2017-10-12 12:35:37,521 [Worker-41] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-12 12:35:37,526 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Schule\5.Jahrgang\SYT\SYT_5BHIT\GK9_3_neu\src\main\resources
+2017-10-12 12:35:37,527 [Worker-41] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-12 12:35:37,532 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Schule\5.Jahrgang\SYT\SYT_5BHIT\GK9_3_neu\src\test\resources
+2017-10-12 12:37:20,690 [Worker-42] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-12 12:37:20,696 [Worker-42] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Schule\5.Jahrgang\SYT\SYT_5BHIT\GK9_3_neu\src\main\resources
+2017-10-12 12:37:20,697 [Worker-42] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-12 12:37:20,704 [Worker-42] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Schule\5.Jahrgang\SYT\SYT_5BHIT\GK9_3_neu\src\test\resources
+2017-10-12 12:37:29,405 [Worker-41] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-12 12:37:29,410 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Schule\5.Jahrgang\SYT\SYT_5BHIT\GK9_3_neu\src\main\resources
+2017-10-12 12:37:29,411 [Worker-41] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-12 12:37:29,416 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Schule\5.Jahrgang\SYT\SYT_5BHIT\GK9_3_neu\src\test\resources
+2017-10-12 12:37:54,969 [Worker-39] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\Schule\5.Jahrgang\SYT\SYT_5BHIT\GK9_3_neu
+2017-10-12 12:37:54,969 [Worker-39] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean install
+2017-10-12 12:40:25,739 [Worker-39] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-12 12:40:25,747 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Schule\5.Jahrgang\SYT\SYT_5BHIT\GK9_3_neu\src\main\resources
+2017-10-12 12:40:25,749 [Worker-39] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-12 12:40:25,761 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Schule\5.Jahrgang\SYT\SYT_5BHIT\GK9_3_neu\src\test\resources
+2017-10-12 12:40:32,563 [Worker-3] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-12 12:40:32,571 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Schule\5.Jahrgang\SYT\SYT_5BHIT\GK9_3_neu\src\main\resources
+2017-10-12 12:40:32,572 [Worker-3] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-12 12:40:32,584 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Schule\5.Jahrgang\SYT\SYT_5BHIT\GK9_3_neu\src\test\resources
+2017-10-12 12:44:03,327 [Worker-39] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-12 12:44:03,332 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Schule\5.Jahrgang\SYT\SYT_5BHIT\GK9_3_neu\src\main\resources
+2017-10-12 12:44:03,333 [Worker-39] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-12 12:44:03,341 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Schule\5.Jahrgang\SYT\SYT_5BHIT\GK9_3_neu\src\test\resources
+2017-10-12 12:44:24,464 [Worker-39] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-12 12:44:24,469 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Schule\5.Jahrgang\SYT\SYT_5BHIT\GK9_3_neu\src\main\resources
+2017-10-12 12:44:24,470 [Worker-39] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-12 12:44:24,477 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Schule\5.Jahrgang\SYT\SYT_5BHIT\GK9_3_neu\src\test\resources
+2017-10-12 12:45:33,744 [Worker-3] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-12 12:45:33,751 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Schule\5.Jahrgang\SYT\SYT_5BHIT\GK9_3_neu\src\main\resources
+2017-10-12 12:45:33,752 [Worker-3] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-12 12:45:33,764 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Schule\5.Jahrgang\SYT\SYT_5BHIT\GK9_3_neu\src\test\resources
+2017-10-12 12:46:14,682 [Worker-43] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-12 12:46:14,687 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Schule\5.Jahrgang\SYT\SYT_5BHIT\GK9_3_neu\src\main\resources
+2017-10-12 12:46:14,688 [Worker-43] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-12 12:46:14,694 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Schule\5.Jahrgang\SYT\SYT_5BHIT\GK9_3_neu\src\test\resources
+2017-10-12 12:46:24,959 [Worker-39] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-12 12:46:24,979 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Schule\5.Jahrgang\SYT\SYT_5BHIT\GK9_3_neu\src\main\resources
+2017-10-12 12:46:24,980 [Worker-39] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-12 12:46:25,006 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Schule\5.Jahrgang\SYT\SYT_5BHIT\GK9_3_neu\src\test\resources
+2017-10-12 12:49:09,726 [Worker-44] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-12 12:49:09,732 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Schule\5.Jahrgang\SYT\SYT_5BHIT\GK9_3_neu\src\main\resources
+2017-10-12 12:49:09,733 [Worker-44] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-12 12:49:09,739 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Schule\5.Jahrgang\SYT\SYT_5BHIT\GK9_3_neu\src\test\resources
+2017-10-12 12:51:46,368 [Worker-44] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-12 12:51:46,381 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Schule\5.Jahrgang\SYT\SYT_5BHIT\GK9_3_neu\src\main\resources
+2017-10-12 12:51:46,382 [Worker-44] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-12 12:51:46,389 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Schule\5.Jahrgang\SYT\SYT_5BHIT\GK9_3_neu\src\test\resources
+2017-10-12 12:52:34,560 [Worker-3] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-12 12:52:34,565 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Schule\5.Jahrgang\SYT\SYT_5BHIT\GK9_3_neu\src\main\resources
+2017-10-12 12:52:34,566 [Worker-3] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-12 12:52:34,571 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Schule\5.Jahrgang\SYT\SYT_5BHIT\GK9_3_neu\src\test\resources
+2017-10-12 12:52:38,789 [Worker-3] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-12 12:52:38,795 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Schule\5.Jahrgang\SYT\SYT_5BHIT\GK9_3_neu\src\main\resources
+2017-10-12 12:52:38,796 [Worker-3] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-12 12:52:38,801 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Schule\5.Jahrgang\SYT\SYT_5BHIT\GK9_3_neu\src\test\resources
+2017-10-12 12:54:47,071 [Worker-42] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-12 12:54:47,080 [Worker-42] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Schule\5.Jahrgang\SYT\SYT_5BHIT\GK9_3_neu\src\main\resources
+2017-10-12 12:54:47,081 [Worker-42] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-12 12:54:47,089 [Worker-42] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Schule\5.Jahrgang\SYT\SYT_5BHIT\GK9_3_neu\src\test\resources
+2017-10-12 12:55:41,732 [Worker-45] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-12 12:55:41,738 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Schule\5.Jahrgang\SYT\SYT_5BHIT\GK9_3_neu\src\main\resources
+2017-10-12 12:55:41,739 [Worker-45] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-12 12:55:41,747 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Schule\5.Jahrgang\SYT\SYT_5BHIT\GK9_3_neu\src\test\resources
+2017-10-12 12:58:09,175 [Worker-39] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-12 12:58:09,188 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Schule\5.Jahrgang\SYT\SYT_5BHIT\GK9_3_neu\src\main\resources
+2017-10-12 12:58:09,189 [Worker-39] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-12 12:58:09,200 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Schule\5.Jahrgang\SYT\SYT_5BHIT\GK9_3_neu\src\test\resources
+2017-10-12 12:58:48,746 [Worker-3] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\Schule\5.Jahrgang\SYT\SYT_5BHIT\GK9_3_neu
+2017-10-12 12:58:48,746 [Worker-3] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean install
+2017-10-12 13:02:00,663 [Worker-45] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\Schule\5.Jahrgang\SYT\SYT_5BHIT\GK9_3_neu
+2017-10-12 13:02:00,663 [Worker-45] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean install
+2017-10-12 13:03:16,678 [Worker-3] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-12 13:03:16,686 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Schule\5.Jahrgang\SYT\SYT_5BHIT\GK9_3_neu\src\main\resources
+2017-10-12 13:03:16,687 [Worker-3] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-12 13:03:16,697 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Schule\5.Jahrgang\SYT\SYT_5BHIT\GK9_3_neu\src\test\resources
+2017-10-12 13:05:07,473 [Worker-45] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-12 13:05:07,482 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Schule\5.Jahrgang\SYT\SYT_5BHIT\GK9_3_neu\src\main\resources
+2017-10-12 13:05:07,483 [Worker-45] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-12 13:05:07,489 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Schule\5.Jahrgang\SYT\SYT_5BHIT\GK9_3_neu\src\test\resources
+2017-10-12 13:07:04,170 [Worker-43] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-12 13:07:04,176 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Schule\5.Jahrgang\SYT\SYT_5BHIT\GK9_3_neu\src\main\resources
+2017-10-12 13:07:04,177 [Worker-43] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-12 13:07:04,183 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Schule\5.Jahrgang\SYT\SYT_5BHIT\GK9_3_neu\src\test\resources
+2017-10-12 13:07:04,183 [Worker-43] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of GK9_3_neu
+2017-10-12 13:07:04,183 [Worker-43] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for GK9_3_neu
+2017-10-12 13:07:04,195 [Worker-43] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-12 13:07:04,202 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-10-12 13:07:18,762 [Worker-45] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-12 13:07:18,768 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Schule\5.Jahrgang\SYT\SYT_5BHIT\GK9_3_neu\src\main\resources
+2017-10-12 13:07:18,769 [Worker-45] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-12 13:07:18,776 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Schule\5.Jahrgang\SYT\SYT_5BHIT\GK9_3_neu\src\test\resources
+2017-10-12 13:07:27,369 [Worker-44] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-12 13:07:27,380 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Schule\5.Jahrgang\SYT\SYT_5BHIT\GK9_3_neu\src\main\resources
+2017-10-12 13:07:27,381 [Worker-44] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-12 13:07:27,388 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Schule\5.Jahrgang\SYT\SYT_5BHIT\GK9_3_neu\src\test\resources
+2017-10-12 13:07:32,326 [Worker-45] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-12 13:07:32,332 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Schule\5.Jahrgang\SYT\SYT_5BHIT\GK9_3_neu\src\main\resources
+2017-10-12 13:07:32,333 [Worker-45] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-12 13:07:32,341 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Schule\5.Jahrgang\SYT\SYT_5BHIT\GK9_3_neu\src\test\resources
+2017-10-12 13:10:06,185 [Worker-44] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-12 13:10:06,191 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Schule\5.Jahrgang\SYT\SYT_5BHIT\GK9_3_neu\src\main\resources
+2017-10-12 13:10:06,193 [Worker-44] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-12 13:10:06,199 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Schule\5.Jahrgang\SYT\SYT_5BHIT\GK9_3_neu\src\test\resources
+2017-10-12 13:12:57,155 [Worker-3] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-12 13:12:57,161 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Schule\5.Jahrgang\SYT\SYT_5BHIT\GK9_3_neu\src\main\resources
+2017-10-12 13:12:57,162 [Worker-3] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-12 13:12:57,170 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Schule\5.Jahrgang\SYT\SYT_5BHIT\GK9_3_neu\src\test\resources
+2017-10-12 13:29:54,072 [Worker-45] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-12 13:29:54,082 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Schule\5.Jahrgang\SYT\SYT_5BHIT\GK9_3_neu\src\main\resources
+2017-10-12 13:29:54,083 [Worker-45] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-12 13:29:54,092 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Schule\5.Jahrgang\SYT\SYT_5BHIT\GK9_3_neu\src\test\resources
+2017-10-12 13:30:41,284 [Worker-45] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-12 13:30:41,291 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Schule\5.Jahrgang\SYT\SYT_5BHIT\GK9_3_neu\src\main\resources
+2017-10-12 13:30:41,292 [Worker-45] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-12 13:30:41,298 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Schule\5.Jahrgang\SYT\SYT_5BHIT\GK9_3_neu\src\test\resources
+2017-10-12 13:32:55,234 [Worker-47] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-12 13:32:55,241 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Schule\5.Jahrgang\SYT\SYT_5BHIT\GK9_3_neu\src\main\resources
+2017-10-12 13:32:55,242 [Worker-47] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-12 13:32:55,250 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Schule\5.Jahrgang\SYT\SYT_5BHIT\GK9_3_neu\src\test\resources
+2017-10-12 13:34:29,592 [Worker-42] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-12 13:34:29,603 [Worker-42] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Schule\5.Jahrgang\SYT\SYT_5BHIT\GK9_3_neu\src\main\resources
+2017-10-12 13:34:29,604 [Worker-42] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-12 13:34:29,614 [Worker-42] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Schule\5.Jahrgang\SYT\SYT_5BHIT\GK9_3_neu\src\test\resources
+2017-10-12 13:37:54,305 [Worker-43] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-12 13:37:54,310 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Schule\5.Jahrgang\SYT\SYT_5BHIT\GK9_3_neu\src\main\resources
+2017-10-12 13:37:54,311 [Worker-43] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-12 13:37:54,316 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Schule\5.Jahrgang\SYT\SYT_5BHIT\GK9_3_neu\src\test\resources
+2017-10-12 13:41:10,016 [Worker-45] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\Schule\5.Jahrgang\SYT\SYT_5BHIT\GK9_3_neu
+2017-10-12 13:41:10,016 [Worker-45] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean install
+2017-10-12 13:41:10,192 [Worker-45] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-12 13:41:10,200 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Schule\5.Jahrgang\SYT\SYT_5BHIT\GK9_3_neu\src\main\resources
+2017-10-12 13:41:10,201 [Worker-45] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-12 13:41:10,209 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Schule\5.Jahrgang\SYT\SYT_5BHIT\GK9_3_neu\src\test\resources
+2017-10-12 13:42:18,301 [Worker-33] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-12 13:42:18,306 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Schule\5.Jahrgang\SYT\SYT_5BHIT\GK9_3_neu\src\main\resources
+2017-10-12 13:42:18,308 [Worker-33] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-12 13:42:18,313 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Schule\5.Jahrgang\SYT\SYT_5BHIT\GK9_3_neu\src\test\resources
+2017-10-12 13:44:23,632 [Worker-42] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-12 13:44:23,641 [Worker-42] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Schule\5.Jahrgang\SYT\SYT_5BHIT\GK9_3_neu\src\main\resources
+2017-10-12 13:44:23,642 [Worker-42] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-12 13:44:23,658 [Worker-42] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Schule\5.Jahrgang\SYT\SYT_5BHIT\GK9_3_neu\src\test\resources
+2017-10-12 13:47:05,157 [Worker-50] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-12 13:47:05,164 [Worker-50] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Schule\5.Jahrgang\SYT\SYT_5BHIT\GK9_3_neu\src\main\resources
+2017-10-12 13:47:05,165 [Worker-50] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-12 13:47:05,172 [Worker-50] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Schule\5.Jahrgang\SYT\SYT_5BHIT\GK9_3_neu\src\test\resources
+2017-10-12 13:49:28,420 [Worker-42] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-12 13:49:28,425 [Worker-42] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Schule\5.Jahrgang\SYT\SYT_5BHIT\GK9_3_neu\src\main\resources
+2017-10-12 13:49:28,426 [Worker-42] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-12 13:49:28,433 [Worker-42] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Schule\5.Jahrgang\SYT\SYT_5BHIT\GK9_3_neu\src\test\resources
+2017-10-12 14:04:46,128 [Worker-42] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-12 14:04:46,137 [Worker-42] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Schule\5.Jahrgang\SYT\SYT_5BHIT\GK9_3_neu\src\main\resources
+2017-10-12 14:04:46,138 [Worker-42] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-12 14:04:46,147 [Worker-42] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Schule\5.Jahrgang\SYT\SYT_5BHIT\GK9_3_neu\src\test\resources
+2017-10-12 14:04:56,552 [Worker-42] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-12 14:04:56,561 [Worker-42] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Schule\5.Jahrgang\SYT\SYT_5BHIT\GK9_3_neu\src\main\resources
+2017-10-12 14:04:56,562 [Worker-42] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-12 14:04:56,573 [Worker-42] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Schule\5.Jahrgang\SYT\SYT_5BHIT\GK9_3_neu\src\test\resources
+2017-10-12 14:18:53,054 [Worker-53] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-12 14:18:53,061 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Schule\5.Jahrgang\SYT\SYT_5BHIT\GK9_3_neu\src\main\resources
+2017-10-12 14:18:53,062 [Worker-53] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-12 14:18:53,071 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Schule\5.Jahrgang\SYT\SYT_5BHIT\GK9_3_neu\src\test\resources
+2017-10-12 14:18:57,400 [Worker-53] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-12 14:18:57,406 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Schule\5.Jahrgang\SYT\SYT_5BHIT\GK9_3_neu\src\main\resources
+2017-10-12 14:18:57,407 [Worker-53] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-12 14:18:57,415 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Schule\5.Jahrgang\SYT\SYT_5BHIT\GK9_3_neu\src\test\resources
+2017-10-12 14:19:02,152 [Worker-53] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-12 14:19:02,157 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Schule\5.Jahrgang\SYT\SYT_5BHIT\GK9_3_neu\src\main\resources
+2017-10-12 14:19:02,158 [Worker-53] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-12 14:19:02,167 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Schule\5.Jahrgang\SYT\SYT_5BHIT\GK9_3_neu\src\test\resources
+2017-10-12 14:19:03,344 [Worker-49] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-12 14:19:03,357 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Schule\5.Jahrgang\SYT\SYT_5BHIT\GK9_3_neu\src\main\resources
+2017-10-12 14:19:03,358 [Worker-49] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-12 14:19:03,372 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Schule\5.Jahrgang\SYT\SYT_5BHIT\GK9_3_neu\src\test\resources
+2017-10-12 14:19:10,706 [Worker-55] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-12 14:19:10,714 [Worker-55] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Schule\5.Jahrgang\SYT\SYT_5BHIT\GK9_3_neu\src\main\resources
+2017-10-12 14:19:10,715 [Worker-55] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-12 14:19:10,724 [Worker-55] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Schule\5.Jahrgang\SYT\SYT_5BHIT\GK9_3_neu\src\test\resources
+2017-10-12 14:19:24,561 [Worker-49] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-12 14:19:24,566 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Schule\5.Jahrgang\SYT\SYT_5BHIT\GK9_3_neu\src\main\resources
+2017-10-12 14:19:24,567 [Worker-49] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-12 14:19:24,575 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Schule\5.Jahrgang\SYT\SYT_5BHIT\GK9_3_neu\src\test\resources
+2017-10-12 14:19:34,258 [Worker-49] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-12 14:19:34,263 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Schule\5.Jahrgang\SYT\SYT_5BHIT\GK9_3_neu\src\main\resources
+2017-10-12 14:19:34,264 [Worker-49] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-12 14:19:34,270 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Schule\5.Jahrgang\SYT\SYT_5BHIT\GK9_3_neu\src\test\resources
+2017-10-12 14:21:37,642 [Worker-56] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-12 14:21:37,648 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Schule\5.Jahrgang\SYT\SYT_5BHIT\GK9_3_neu\src\main\resources
+2017-10-12 14:21:37,649 [Worker-56] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-12 14:21:37,655 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Schule\5.Jahrgang\SYT\SYT_5BHIT\GK9_3_neu\src\test\resources
+2017-10-12 14:22:14,188 [Worker-55] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-12 14:22:14,194 [Worker-55] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Schule\5.Jahrgang\SYT\SYT_5BHIT\GK9_3_neu\src\main\resources
+2017-10-12 14:22:14,195 [Worker-55] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-12 14:22:14,203 [Worker-55] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Schule\5.Jahrgang\SYT\SYT_5BHIT\GK9_3_neu\src\test\resources
+2017-10-12 14:23:18,548 [Worker-56] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-12 14:23:18,556 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Schule\5.Jahrgang\SYT\SYT_5BHIT\GK9_3_neu\src\main\resources
+2017-10-12 14:23:18,557 [Worker-56] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-12 14:23:18,563 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Schule\5.Jahrgang\SYT\SYT_5BHIT\GK9_3_neu\src\test\resources
+2017-10-12 14:24:40,975 [Worker-54] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-12 14:24:40,984 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Schule\5.Jahrgang\SYT\SYT_5BHIT\GK9_3_neu\src\main\resources
+2017-10-12 14:24:40,988 [Worker-54] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-12 14:24:40,997 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Schule\5.Jahrgang\SYT\SYT_5BHIT\GK9_3_neu\src\test\resources
+2017-10-12 14:25:00,205 [Worker-42] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-12 14:25:00,211 [Worker-42] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Schule\5.Jahrgang\SYT\SYT_5BHIT\GK9_3_neu\src\main\resources
+2017-10-12 14:25:00,212 [Worker-42] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-12 14:25:00,220 [Worker-42] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Schule\5.Jahrgang\SYT\SYT_5BHIT\GK9_3_neu\src\test\resources
+2017-10-12 14:25:17,649 [Worker-54] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-12 14:25:17,657 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Schule\5.Jahrgang\SYT\SYT_5BHIT\GK9_3_neu\src\main\resources
+2017-10-12 14:25:17,658 [Worker-54] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-12 14:25:17,668 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Schule\5.Jahrgang\SYT\SYT_5BHIT\GK9_3_neu\src\test\resources
+2017-10-12 14:25:19,896 [Worker-53] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-12 14:25:19,903 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Schule\5.Jahrgang\SYT\SYT_5BHIT\GK9_3_neu\src\main\resources
+2017-10-12 14:25:19,903 [Worker-53] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-12 14:25:19,909 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Schule\5.Jahrgang\SYT\SYT_5BHIT\GK9_3_neu\src\test\resources
+2017-10-12 14:25:38,343 [Worker-54] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-12 14:25:38,349 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Schule\5.Jahrgang\SYT\SYT_5BHIT\GK9_3_neu\src\main\resources
+2017-10-12 14:25:38,350 [Worker-54] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-12 14:25:38,360 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Schule\5.Jahrgang\SYT\SYT_5BHIT\GK9_3_neu\src\test\resources
+2017-10-12 14:26:23,017 [Worker-55] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-12 14:26:23,025 [Worker-55] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Schule\5.Jahrgang\SYT\SYT_5BHIT\GK9_3_neu\src\main\resources
+2017-10-12 14:26:23,026 [Worker-55] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-12 14:26:23,031 [Worker-55] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Schule\5.Jahrgang\SYT\SYT_5BHIT\GK9_3_neu\src\test\resources
+2017-10-12 14:26:35,910 [Worker-56] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-12 14:26:35,916 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Schule\5.Jahrgang\SYT\SYT_5BHIT\GK9_3_neu\src\main\resources
+2017-10-12 14:26:35,916 [Worker-56] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-12 14:26:35,925 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Schule\5.Jahrgang\SYT\SYT_5BHIT\GK9_3_neu\src\test\resources
+2017-10-12 14:27:01,759 [Worker-42] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-12 14:27:01,765 [Worker-42] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Schule\5.Jahrgang\SYT\SYT_5BHIT\GK9_3_neu\src\main\resources
+2017-10-12 14:27:01,766 [Worker-42] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-12 14:27:01,773 [Worker-42] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Schule\5.Jahrgang\SYT\SYT_5BHIT\GK9_3_neu\src\test\resources
+2017-10-12 14:27:48,643 [Worker-55] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-12 14:27:48,652 [Worker-55] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Schule\5.Jahrgang\SYT\SYT_5BHIT\GK9_3_neu\src\main\resources
+2017-10-12 14:27:48,652 [Worker-55] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-12 14:27:48,661 [Worker-55] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Schule\5.Jahrgang\SYT\SYT_5BHIT\GK9_3_neu\src\test\resources
+2017-10-12 14:29:51,107 [Worker-56] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-12 14:29:51,113 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Schule\5.Jahrgang\SYT\SYT_5BHIT\GK9_3_neu\src\main\resources
+2017-10-12 14:29:51,113 [Worker-56] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-12 14:29:51,119 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Schule\5.Jahrgang\SYT\SYT_5BHIT\GK9_3_neu\src\test\resources
+2017-10-12 14:31:09,378 [Worker-57] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-12 14:31:09,387 [Worker-57] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Schule\5.Jahrgang\SYT\SYT_5BHIT\GK9_3_neu\src\main\resources
+2017-10-12 14:31:09,388 [Worker-57] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-12 14:31:09,398 [Worker-57] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Schule\5.Jahrgang\SYT\SYT_5BHIT\GK9_3_neu\src\test\resources
+2017-10-12 14:31:30,734 [Worker-57] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-12 14:31:30,745 [Worker-57] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Schule\5.Jahrgang\SYT\SYT_5BHIT\GK9_3_neu\src\main\resources
+2017-10-12 14:31:30,746 [Worker-57] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-12 14:31:30,754 [Worker-57] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Schule\5.Jahrgang\SYT\SYT_5BHIT\GK9_3_neu\src\test\resources
+2017-10-12 14:32:13,486 [Worker-53] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-12 14:32:13,494 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Schule\5.Jahrgang\SYT\SYT_5BHIT\GK9_3_neu\src\main\resources
+2017-10-12 14:32:13,494 [Worker-53] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-12 14:32:13,500 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Schule\5.Jahrgang\SYT\SYT_5BHIT\GK9_3_neu\src\test\resources
+2017-10-12 14:32:25,843 [Worker-49] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-12 14:32:25,849 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Schule\5.Jahrgang\SYT\SYT_5BHIT\GK9_3_neu\src\main\resources
+2017-10-12 14:32:25,850 [Worker-49] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-12 14:32:25,855 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Schule\5.Jahrgang\SYT\SYT_5BHIT\GK9_3_neu\src\test\resources
+2017-10-12 14:32:34,593 [Worker-56] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-12 14:32:34,600 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Schule\5.Jahrgang\SYT\SYT_5BHIT\GK9_3_neu\src\main\resources
+2017-10-12 14:32:34,601 [Worker-56] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-12 14:32:34,608 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Schule\5.Jahrgang\SYT\SYT_5BHIT\GK9_3_neu\src\test\resources
+2017-10-12 14:32:56,995 [Worker-49] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-12 14:32:57,000 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Schule\5.Jahrgang\SYT\SYT_5BHIT\GK9_3_neu\src\main\resources
+2017-10-12 14:32:57,001 [Worker-49] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-12 14:32:57,007 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Schule\5.Jahrgang\SYT\SYT_5BHIT\GK9_3_neu\src\test\resources
+2017-10-12 14:33:05,322 [Worker-54] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-12 14:33:05,328 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Schule\5.Jahrgang\SYT\SYT_5BHIT\GK9_3_neu\src\main\resources
+2017-10-12 14:33:05,329 [Worker-54] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-12 14:33:05,336 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Schule\5.Jahrgang\SYT\SYT_5BHIT\GK9_3_neu\src\test\resources
+2017-10-12 14:33:26,864 [Worker-55] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-12 14:33:26,869 [Worker-55] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Schule\5.Jahrgang\SYT\SYT_5BHIT\GK9_3_neu\src\main\resources
+2017-10-12 14:33:26,870 [Worker-55] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-12 14:33:26,876 [Worker-55] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Schule\5.Jahrgang\SYT\SYT_5BHIT\GK9_3_neu\src\test\resources
+2017-10-12 14:33:35,010 [Worker-53] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-12 14:33:35,015 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Schule\5.Jahrgang\SYT\SYT_5BHIT\GK9_3_neu\src\main\resources
+2017-10-12 14:33:35,015 [Worker-53] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-12 14:33:35,022 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Schule\5.Jahrgang\SYT\SYT_5BHIT\GK9_3_neu\src\test\resources
+2017-10-12 14:33:44,435 [Worker-56] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-12 14:33:44,441 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Schule\5.Jahrgang\SYT\SYT_5BHIT\GK9_3_neu\src\main\resources
+2017-10-12 14:33:44,442 [Worker-56] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-12 14:33:44,447 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Schule\5.Jahrgang\SYT\SYT_5BHIT\GK9_3_neu\src\test\resources
+2017-10-12 14:33:49,253 [Worker-57] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-12 14:33:49,259 [Worker-57] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Schule\5.Jahrgang\SYT\SYT_5BHIT\GK9_3_neu\src\main\resources
+2017-10-12 14:33:49,260 [Worker-57] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-12 14:33:49,267 [Worker-57] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Schule\5.Jahrgang\SYT\SYT_5BHIT\GK9_3_neu\src\test\resources
+2017-10-12 14:38:03,428 [Worker-49] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-12 14:38:03,433 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Schule\5.Jahrgang\SYT\SYT_5BHIT\GK9_3_neu\src\main\resources
+2017-10-12 14:38:03,434 [Worker-49] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-12 14:38:03,441 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Schule\5.Jahrgang\SYT\SYT_5BHIT\GK9_3_neu\src\test\resources
+2017-10-12 14:38:13,699 [Worker-59] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-12 14:38:13,709 [Worker-59] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Schule\5.Jahrgang\SYT\SYT_5BHIT\GK9_3_neu\src\main\resources
+2017-10-12 14:38:13,710 [Worker-59] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-12 14:38:13,718 [Worker-59] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Schule\5.Jahrgang\SYT\SYT_5BHIT\GK9_3_neu\src\test\resources
+2017-10-12 14:38:33,752 [Worker-56] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-12 14:38:33,759 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Schule\5.Jahrgang\SYT\SYT_5BHIT\GK9_3_neu\src\main\resources
+2017-10-12 14:38:33,760 [Worker-56] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-12 14:38:33,765 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Schule\5.Jahrgang\SYT\SYT_5BHIT\GK9_3_neu\src\test\resources
+2017-10-12 14:38:45,969 [Worker-49] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-12 14:38:45,977 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Schule\5.Jahrgang\SYT\SYT_5BHIT\GK9_3_neu\src\main\resources
+2017-10-12 14:38:45,978 [Worker-49] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-12 14:38:45,983 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Schule\5.Jahrgang\SYT\SYT_5BHIT\GK9_3_neu\src\test\resources
+2017-10-12 14:39:26,908 [Worker-58] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-12 14:39:26,914 [Worker-58] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Schule\5.Jahrgang\SYT\SYT_5BHIT\GK9_3_neu\src\main\resources
+2017-10-12 14:39:26,914 [Worker-58] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-12 14:39:26,922 [Worker-58] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Schule\5.Jahrgang\SYT\SYT_5BHIT\GK9_3_neu\src\test\resources
+2017-10-12 14:39:30,849 [Worker-60] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-12 14:39:30,858 [Worker-60] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Schule\5.Jahrgang\SYT\SYT_5BHIT\GK9_3_neu\src\main\resources
+2017-10-12 14:39:30,859 [Worker-60] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-12 14:39:30,865 [Worker-60] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Schule\5.Jahrgang\SYT\SYT_5BHIT\GK9_3_neu\src\test\resources
+2017-10-12 14:39:44,773 [Worker-59] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-12 14:39:44,781 [Worker-59] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Schule\5.Jahrgang\SYT\SYT_5BHIT\GK9_3_neu\src\main\resources
+2017-10-12 14:39:44,782 [Worker-59] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-12 14:39:44,791 [Worker-59] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Schule\5.Jahrgang\SYT\SYT_5BHIT\GK9_3_neu\src\test\resources
+2017-10-12 14:40:14,499 [Worker-56] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-12 14:40:14,504 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Schule\5.Jahrgang\SYT\SYT_5BHIT\GK9_3_neu\src\main\resources
+2017-10-12 14:40:14,504 [Worker-56] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-12 14:40:14,510 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Schule\5.Jahrgang\SYT\SYT_5BHIT\GK9_3_neu\src\test\resources
+2017-10-12 14:42:51,878 [Worker-49] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-12 14:42:51,897 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Schule\5.Jahrgang\SYT\SYT_5BHIT\GK9_3_neu\src\main\resources
+2017-10-12 14:42:51,898 [Worker-49] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-12 14:42:51,930 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Schule\5.Jahrgang\SYT\SYT_5BHIT\GK9_3_neu\src\test\resources
+2017-10-12 14:43:04,637 [Worker-60] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-12 14:43:04,654 [Worker-60] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Schule\5.Jahrgang\SYT\SYT_5BHIT\GK9_3_neu\src\main\resources
+2017-10-12 14:43:04,655 [Worker-60] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-12 14:43:04,683 [Worker-60] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Schule\5.Jahrgang\SYT\SYT_5BHIT\GK9_3_neu\src\test\resources
+2017-10-12 14:44:31,730 [Worker-49] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-12 14:44:31,738 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Schule\5.Jahrgang\SYT\SYT_5BHIT\GK9_3_neu\src\main\resources
+2017-10-12 14:44:31,739 [Worker-49] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-12 14:44:31,748 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Schule\5.Jahrgang\SYT\SYT_5BHIT\GK9_3_neu\src\test\resources
+2017-10-12 14:44:40,986 [Worker-56] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-12 14:44:40,993 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Schule\5.Jahrgang\SYT\SYT_5BHIT\GK9_3_neu\src\main\resources
+2017-10-12 14:44:40,995 [Worker-56] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-12 14:44:41,008 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Schule\5.Jahrgang\SYT\SYT_5BHIT\GK9_3_neu\src\test\resources
+2017-10-12 14:45:49,452 [Worker-49] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-12 14:45:49,459 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Schule\5.Jahrgang\SYT\SYT_5BHIT\GK9_3_neu\src\main\resources
+2017-10-12 14:45:49,460 [Worker-49] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-12 14:45:49,470 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Schule\5.Jahrgang\SYT\SYT_5BHIT\GK9_3_neu\src\test\resources
+2017-10-12 14:47:11,866 [Worker-49] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-12 14:47:11,872 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Schule\5.Jahrgang\SYT\SYT_5BHIT\GK9_3_neu\src\main\resources
+2017-10-12 14:47:11,873 [Worker-49] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-12 14:47:11,879 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Schule\5.Jahrgang\SYT\SYT_5BHIT\GK9_3_neu\src\test\resources
+2017-10-12 14:58:16,822 [Worker-61] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-12 14:58:16,828 [Worker-61] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Schule\5.Jahrgang\SYT\SYT_5BHIT\GK9_3_neu\src\main\resources
+2017-10-12 14:58:16,829 [Worker-61] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-12 14:58:16,847 [Worker-61] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Schule\5.Jahrgang\SYT\SYT_5BHIT\GK9_3_neu\src\test\resources
+2017-10-12 15:02:38,905 [Worker-62] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-12 15:02:38,912 [Worker-62] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Schule\5.Jahrgang\SYT\SYT_5BHIT\GK9_3_neu\src\main\resources
+2017-10-12 15:02:38,913 [Worker-62] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-12 15:02:38,921 [Worker-62] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Schule\5.Jahrgang\SYT\SYT_5BHIT\GK9_3_neu\src\test\resources
+2017-10-12 15:05:27,855 [Worker-63] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-12 15:05:27,864 [Worker-63] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Schule\5.Jahrgang\SYT\SYT_5BHIT\GK9_3_neu\src\main\resources
+2017-10-12 15:05:27,865 [Worker-63] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-12 15:05:27,872 [Worker-63] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Schule\5.Jahrgang\SYT\SYT_5BHIT\GK9_3_neu\src\test\resources
+2017-10-12 15:05:38,674 [Worker-62] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-12 15:05:38,683 [Worker-62] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Schule\5.Jahrgang\SYT\SYT_5BHIT\GK9_3_neu\src\main\resources
+2017-10-12 15:05:38,684 [Worker-62] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-12 15:05:38,693 [Worker-62] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Schule\5.Jahrgang\SYT\SYT_5BHIT\GK9_3_neu\src\test\resources
