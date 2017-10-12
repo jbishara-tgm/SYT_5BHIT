@@ -7,6 +7,8 @@ import java.sql.Statement;
 
 import javax.ws.rs.FormParam;
 
+import com.sun.jersey.spi.resource.Singleton;
+
 public class DB {
 
 	private static DB instance = null;
@@ -17,10 +19,7 @@ public class DB {
 		// init database
 		try {
 			Class.forName("org.h2.Driver");
-			con = DriverManager.getConnection("jdbc:h2:~/dbuser;AUTO_SERVER=TRUE", "sa", "");
-			
-			
-	
+			con = DriverManager.getConnection("jdbc:h2:~/dbuser", "sa", "");
 		}catch(Exception e){
 			e.printStackTrace();
 		}
