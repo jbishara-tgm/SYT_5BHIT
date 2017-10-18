@@ -14,7 +14,9 @@ import javax.ws.rs.core.MediaType;
 
 @Path("/login")
 public class Login {
+	
 	DB db = DB.getInstance();
+	
 	@GET
 	@Produces(MediaType.TEXT_HTML)
 	public String login() throws Exception {
@@ -37,15 +39,21 @@ public class Login {
 	
 	@POST
 	@Produces(MediaType.TEXT_HTML)
-	public void submit(@FormParam("mail") String mail,@FormParam("pw") String pw) {
+	public String submit(@FormParam("mail") String mail,@FormParam("pw") String pw) {
+		String response = "";
 		try {
-		DB.getInstance().createTable();
-        DB.getInstance().loginUser(mail, pw);
+			db.getInstance().createCon();
+			db.getInstance().createTable();
+			response = db.getInstance().loginUser(mail, pw);
+			db.getInstance().closeCon();
+		//DB.getInstance().createTable();
+        //DB.getInstance().loginUser(mail, pw);
         //con.close();
 
 		}catch(Exception e) {
 			System.out.println("nix geht");
 			e.printStackTrace();
 		}
+		return response;
 	}
 }
