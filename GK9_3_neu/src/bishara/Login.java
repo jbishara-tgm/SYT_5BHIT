@@ -14,46 +14,28 @@ import javax.ws.rs.core.MediaType;
 
 @Path("/login")
 public class Login {
-	
+
 	DB db = DB.getInstance();
-	
+
 	@GET
 	@Produces(MediaType.TEXT_HTML)
 	public String login() throws Exception {
-		
-		
-		return "<html>\r\n" + 
-				"<head><meta charset=\"UTF-8\"></head>\r\n" + 
-				"<body>\r\n" + 
-				"<form method=\"post\">\r\n" + 
-				"   E-Mail:<br>\r\n" + 
-				"  <input type=\"text\" name=\"mail\"><br>\r\n" + 
-				"  Password:<br>\r\n" + 
-				"  <input type=\"password\" name=\"pw\">\r\n" + 
-				"  <input type=\"submit\" value=\"Submit\">\r\n" + 
-				"</form>\r\n" + 
-				"</body>\r\n" + 
-				"</html>\r\n" + 
-				"";
+
+		return "<html>\r\n" + "<head><meta charset=\"UTF-8\"></head>\r\n" + "<body>\r\n" + "<form method=\"post\">\r\n"
+				+ "   E-Mail:<br>\r\n" + "  <input type=\"text\" name=\"mail\"><br>\r\n" + "  Password:<br>\r\n"
+				+ "  <input type=\"password\" name=\"pw\">\r\n" + "  <input type=\"submit\" value=\"Submit\">\r\n"
+				+ "</form>\r\n" + "</body>\r\n" + "</html>\r\n" + "";
 	}
-	
+
 	@POST
 	@Produces(MediaType.TEXT_HTML)
-	public String submit(@FormParam("mail") String mail,@FormParam("pw") String pw) {
+	public String submit(@FormParam("mail") String mail, @FormParam("pw") String pw) throws Exception {
 		String response = "";
-		try {
-			db.getInstance().createCon();
-			db.getInstance().createTable();
-			response = db.getInstance().loginUser(mail, pw);
-			db.getInstance().closeCon();
-		//DB.getInstance().createTable();
-        //DB.getInstance().loginUser(mail, pw);
-        //con.close();
+		db.getInstance().createCon();
+		db.getInstance().createTable();
+		response = db.getInstance().loginUser(mail, pw);
+		db.getInstance().closeCon();
 
-		}catch(Exception e) {
-			System.out.println("nix geht");
-			e.printStackTrace();
-		}
 		return response;
 	}
 }

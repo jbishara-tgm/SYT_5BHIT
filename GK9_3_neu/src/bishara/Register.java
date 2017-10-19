@@ -18,8 +18,7 @@ public class Register {
 	@GET
 	@Produces(MediaType.TEXT_HTML)
 	public String register() throws Exception {
-		
-		
+
 		return "<html>\r\n" + 
 				"<head><meta charset=\"UTF-8\"></head>\r\n" + 
 				"<body>\r\n" + 
@@ -41,33 +40,14 @@ public class Register {
 	
 	@POST
 	@Produces(MediaType.TEXT_HTML)
-	public String submit(@FormParam("firstname") String firstname,@FormParam("lastname") String lastname,@FormParam("mail") String mail,@FormParam("pw") String pw) {
-		boolean error = false;
-		String response = "Registrierung erfolgreich";
-		try {
-        //stmt.executeUpdate( "DROP TABLE table1" );
+	public String submit(@FormParam("firstname") String firstname,@FormParam("lastname") String lastname,@FormParam("mail") String mail,@FormParam("pw") String pw) throws Exception {
+		String response = "";
+
 			db.getInstance().createCon();
 			db.getInstance().createTable();
-			db.getInstance().registerUser(firstname, lastname, mail, pw);
+			response = db.getInstance().registerUser(firstname, lastname, mail, pw);
 			db.getInstance().closeCon();
-        //DB.getInstance().createTable();
-        //DB.getInstance().registerUser(firstname, lastname, mail, pw);
-        //con.close();
 
-		}catch(Exception e) {
-			System.out.println("nix geht");
-			e.printStackTrace();
-			error = true;
-		}
-		if(error) {
-			response = "Registrierung nicht erfolgreich";
-		}
-		return "<html>\r\n" + 
-				"<head><meta charset=\"UTF-8\"></head>\r\n" + 
-				"<body>\r\n" + 
-				"<h1>" + response + "</h1>\r\n" + 
-				"</body>\r\n" + 
-				"</html>\r\n" + 
-				"";
+		return response;
 	}
 }
